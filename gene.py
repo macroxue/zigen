@@ -22,6 +22,9 @@ parser.add_argument('-f', '--freq_file',
 parser.add_argument('-m', '--max_code_length',
         help='maximum code length',
         type=int, default=4)
+parser.add_argument('-p', '--pad_with_pin_yin',
+        help='add Pin-Yin for code length below the maximum',
+        action='store_true')
 parser.add_argument('-o', '--optimize',
         help='optimize for root groups, '
         'taking "all" or a comma-separated list of roots')
@@ -91,6 +94,7 @@ def traverse(breakdown):
 
 lines = lines[i+1:]
 dict = {}
+pinyin = {}
 incomplete = []
 for line in lines:
     line = line.strip()
@@ -101,12 +105,19 @@ for line in lines:
     item = line.split()
     if len(item) < 3:
         continue
-    # Handle a character whose breakdown is not defined. Can be a root.
+
+    # Extra Pin-Yin if it's a character.
+    p = item[0]
     c = item[2]
+    if p[0].isalpha():
+        pinyin[c] = p
+
+    # Handle a character whose breakdown is not defined. Can be a root.
     if len(item) < 4:
         if not dict.has_key(c):
             dict[c] = ''
         continue
+
     # Merge the rest of the items into one string that defines the breakdown.
     d = item[3]
     for i in range(4, len(item)):
@@ -250,6 +261,9 @@ def full_evaluation():
         code = ''
         for root in roots:
             code += code_keys[root_group[root]]
+        if len(roots) < args.max_code_length:
+            if args.pad_with_pin_yin and pinyin.has_key(c):
+                code += pinyin[c][0]
         if code_book.has_key(code):
             code_book[code] += [c]
         else:
@@ -296,6 +310,9 @@ def fast_evalulation():
         code = 0
         for root in roots:
             code = (code << 5) + root_group[root] + 1
+        if len(roots) < args.max_code_length:
+            if args.pad_with_pin_yin and pinyin.has_key(c):
+                code = (code << 5) + ord(pinyin[c][0]) - ord('a') + 1
         if code >= 32 and code_book.has_key(code):
             num_dups += code_book[code]
             code_book[code] = 1
