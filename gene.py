@@ -328,14 +328,20 @@ def fast_evalulation():
         code = 0
         for root in roots:
             code = (code << 5) + root_group[root] + 1
+        plus = ['']
         if len(roots) < args.max_code_length:
             if args.pad_with_pin_yin and pinyin.has_key(c):
-                code = (code << 5) + ord(pinyin[c][0]) - ord('a') + 1
-        if code >= 32 and code_book.has_key(code):
-            num_dups += code_book[code]
-            code_book[code] = 1
-        else:
-            code_book[code] = 2
+                plus = pinyin[c]
+        for p in plus:
+            if p == '':
+                code_plus = code
+            else:
+                code_plus = (code << 5) + ord(p) - ord('a') + 1
+            if code_plus >= 32 and code_book.has_key(code_plus):
+                num_dups += code_book[code_plus]
+                code_book[code_plus] = 1
+            else:
+                code_book[code_plus] = 2
     return num_dups
 
 # Sort roots by frequency. Optimize for frequently used roots first.
