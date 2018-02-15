@@ -266,47 +266,44 @@ for c in flat_dict:
 # Keys used for encoding roots.
 code_keys = 'abcdefghijklmnopqrstuvwxyz;'
 
-# Full/slow evaluation to generate code book and calculate the number of
-# duplicated codes.
-def full_evaluation():
-    code_book = {}
-    num_dups = 0
-    for c, roots in flat_dict.items():
-        code = ''
-        for root in roots:
-            code += code_keys[root_group[root]]
-        plus = ['']
-        if len(roots) < args.max_code_length:
-            if args.pad_with_pin_yin and pinyin.has_key(c):
-                plus = pinyin[c]
-        for p in plus:
-            code_plus = code + p
-            if code_book.has_key(code_plus):
-                code_book[code_plus] += [c]
-            else:
-                code_book[code_plus] = [c]
+# Generate the code book.
+code_book = {}
+num_dups = 0
+for c, roots in flat_dict.items():
+    code = ''
+    for root in roots:
+        code += code_keys[root_group[root]]
+    plus = ['']
+    if len(roots) < args.max_code_length:
+        if args.pad_with_pin_yin and pinyin.has_key(c):
+            plus = pinyin[c]
+    for p in plus:
+        code_plus = code + p
+        if code_book.has_key(code_plus):
+            code_book[code_plus] += [c]
+        else:
+            code_book[code_plus] = [c]
 
-    for code, characters in code_book.items():
-        characters.sort(key=lambda c: char_freq[c], reverse=True)
-        # Don't count dups for code length 1 because many of them are
-        # non-characters.
-        if len(code) <= 1:
-            continue
-        if len(characters) >= 2:
-            num_dups += len(characters)
+# Calculate the number of duplicate codes.
+for code, characters in code_book.items():
+    characters.sort(key=lambda c: char_freq[c], reverse=True)
+    # Don't count dups for code length 1 because many of them are
+    # non-characters.
+    if len(code) <= 1:
+        continue
+    if len(characters) >= 2:
+        num_dups += len(characters)
 
-    # Output code book to a file.
-    codes = code_book.keys()
-    codes.sort()
-    with open(args.code_file, 'w') as f:
-        for code in codes:
-            code_count = len(code_book[code])
-            for c in code_book[code]:
-                f.write('%4s\t%s\t%d\n' % (code, c, code_count))
-    return num_dups
-
-num_dups = full_evaluation()
 print 'Groups=%d, Duplicates=%d' % (num_groups, num_dups)
+
+# Output code book to a file.
+codes = code_book.keys()
+codes.sort()
+with open(args.code_file, 'w') as f:
+    for code in codes:
+        code_count = len(code_book[code])
+        for c in code_book[code]:
+            f.write('%4s\t%s\t%d\n' % (code, c, code_count))
 
 # See if optimization for root grouping is asked.
 if args.optimize is None:
