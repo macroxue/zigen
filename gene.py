@@ -107,10 +107,13 @@ for line in lines:
         continue
 
     # Extra Pin-Yin if it's a character.
-    p = item[0]
+    p = item[0][0]
     c = item[2]
-    if p[0].isalpha():
-        pinyin[c] = p
+    if p.isalpha():
+        if not pinyin.has_key(c):
+            pinyin[c] = [p]
+        elif not p in pinyin[c]:
+            pinyin[c] += [p]
 
     # Handle a character whose breakdown is not defined. Can be a root.
     if len(item) < 4:
@@ -261,13 +264,16 @@ def full_evaluation():
         code = ''
         for root in roots:
             code += code_keys[root_group[root]]
+        plus = ['']
         if len(roots) < args.max_code_length:
             if args.pad_with_pin_yin and pinyin.has_key(c):
-                code += pinyin[c][0]
-        if code_book.has_key(code):
-            code_book[code] += [c]
-        else:
-            code_book[code] = [c]
+                plus = pinyin[c]
+        for p in plus:
+            code_plus = code + p
+            if code_book.has_key(code_plus):
+                code_book[code_plus] += [c]
+            else:
+                code_book[code_plus] = [c]
 
     for code, characters in code_book.items():
         # Don't count dups for code length 1 because many of them are
