@@ -1,0 +1,38 @@
+;fcitx 版本 0x03 码表文件
+键码=abcdefghijklmnopqrstuvwxyz;
+码长=4
+规避字符=
+拼音=@
+拼音长度=12
+[组词规则]
+e2=p11+p12+p21+p22
+e3=p11+p21+p31+p32
+a4=p11+p21+p31+n11
+[数据]
+   f    我
+   j    你
+   l    他
+   a    她
+   n    它
+   ;    着
+   z    了
+   x    过
+   d    的
+   y    地
+   t    得
+   u    能
+   c    就
+   b    是
+   i    这
+   g    那
+   k    被
+   v    给
+   q    国
+   s    人
+   h    一
+   w    爱
+   m    和
+   e    在
+   r    大
+   p    很
+   o    或
