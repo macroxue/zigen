@@ -252,6 +252,17 @@ unused_roots = [root for root in root_group if root not in root_freq.keys()]
 if unused_roots != []:
     stderr.write('Unused roots: ' + ' '.join(unused_roots) + '\n')
 
+# Read table of character frequencies.
+with open('char_freq.txt') as f:
+    lines = f.readlines()
+char_freq = {}
+for line in lines:
+    item = line.split()
+    char_freq[item[0]] = int(item[1])
+for c in flat_dict:
+    if not char_freq.has_key(c):
+        char_freq[c] = 0
+
 # Keys used for encoding roots.
 code_keys = 'abcdefghijklmnopqrstuvwxyz;'
 
@@ -276,6 +287,7 @@ def full_evaluation():
                 code_book[code_plus] = [c]
 
     for code, characters in code_book.items():
+        characters.sort(key=lambda c: char_freq[c], reverse=True)
         # Don't count dups for code length 1 because many of them are
         # non-characters.
         if len(code) <= 1:
