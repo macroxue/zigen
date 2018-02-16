@@ -25,6 +25,9 @@ parser.add_argument('-m', '--max_code_length',
 parser.add_argument('-p', '--pad_with_pin_yin',
         help='add Pin-Yin for code length below the maximum',
         action='store_true')
+parser.add_argument('-s', '--simple_code_length',
+        help='generate simple codes up to this length',
+        type=int, default=3)
 parser.add_argument('-o', '--optimize',
         help='optimize for root groups, '
         'taking "all" or a comma-separated list of roots')
@@ -268,7 +271,6 @@ code_keys = 'abcdefghijklmnopqrstuvwxyz;'
 
 # Generate the code book.
 code_book = {}
-num_dups = 0
 for c, roots in flat_dict.items():
     code = ''
     for root in roots:
@@ -284,26 +286,52 @@ for c, roots in flat_dict.items():
         else:
             code_book[code_plus] = [c]
 
-# Calculate the number of duplicate codes.
-for code, characters in code_book.items():
-    characters.sort(key=lambda c: char_freq[c], reverse=True)
-    # Don't count dups for code length 1 because many of them are
-    # non-characters.
-    if len(code) <= 1:
-        continue
-    if len(characters) >= 2:
-        num_dups += len(characters)
-
-print 'Groups=%d, Duplicates=%d' % (num_groups, num_dups)
+# Generate simple codes based on character frequencies.
+simple_code_book = {}
+char_with_simple_code = []
+for length in range(1, args.simple_code_length+1):
+    simple_code_candidates = {}
+    for code, characters in code_book.items():
+        if len(code) <= length:
+            continue
+        simple_code = code[0:length]
+        if length > 1 and code_book.has_key(simple_code):
+            continue
+        if simple_code_candidates.has_key(simple_code):
+            simple_code_candidates[simple_code] += characters
+        else:
+            simple_code_candidates[simple_code] = [] + characters
+    for code, candidates in simple_code_candidates.items():
+        candidates.sort(key=lambda c: char_freq[c], reverse=True)
+        for c in candidates:
+            if c not in char_with_simple_code:
+                char_with_simple_code += [c]
+                simple_code_book[code] = c
+                break
 
 # Output code book to a file.
-codes = code_book.keys()
-codes.sort()
+num_dups = 0
 with open(args.code_file, 'w') as f:
-    for code in codes:
-        code_count = len(code_book[code])
-        for c in code_book[code]:
+    for code in sorted(simple_code_book):
+        f.write('%4s\t%s\t1\n' % (code, simple_code_book[code]))
+    for code in sorted(code_book.keys()):
+        characters = code_book[code]
+        full_codes = []
+        for c in characters:
+            if c not in char_with_simple_code:
+                full_codes += [c]
+        full_codes.sort(key=lambda c: char_freq[c], reverse=True)
+        code_count = len(full_codes)
+        for c in full_codes:
             f.write('%4s\t%s\t%d\n' % (code, c, code_count))
+
+        # Don't count dups for code length 1 because many of them are
+        # non-characters.
+        if len(code) <= 1:
+            continue
+        if code_count >= 2:
+            num_dups += code_count
+print 'Groups=%d, Duplicates=%d' % (num_groups, num_dups)
 
 # See if optimization for root grouping is asked.
 if args.optimize is None:
