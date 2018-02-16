@@ -207,21 +207,13 @@ def break_character(c):
     return roots
 
 # Remove minor (single-stroke) roots since they carry less info.
-minor_roots = ['一', '丨', '丿', '丶', '[捺]']
+minor_roots = ['一', '丨', '丿', '丶']
 def remove_minor_roots(roots):
-    while len(roots) > args.max_code_length:
-        removed = False
-        for c in roots[1:]:
-            if c in minor_roots:
-                copy = roots[1:]
-                copy.remove(c)
-                roots = roots[:1] + copy
-                removed = True
-                break
-        if not removed:
-            break
-    return roots
-
+    new_roots = roots[:1]
+    for root in roots[1:]:
+        if root not in minor_roots:
+            new_roots += [root]
+    return new_roots
 
 # Generate flat dictionary where characters are broken down to roots.
 flat_dict = {}
