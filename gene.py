@@ -166,6 +166,8 @@ with open(args.group_file) as f:
     lines = f.readlines()
 
 for line in lines:
+    if line[0] == '#':
+        continue
     roots = line.split()
     if roots == []:
         new_group = True
@@ -259,7 +261,8 @@ for c in flat_dict:
         char_freq[c] = 0
 
 # Keys used for encoding roots.
-code_keys = 'abcdefghijklmnopqrstuvwxyz;'
+#code_keys = 'abcdefghijklmnopqrstuvwxyz;1234567890'
+code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
 
 # Generate the code book.
 code_book = {}
