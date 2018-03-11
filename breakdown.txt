@@ -35,7 +35,7 @@ CC 串叉   如：秉乘
 1          1 无 一尢sx
 1          1 [无] 无
 1          1 歹 一夕sx
-1          1 互 一[彖头]一sx
+1          1 互 一彑sx
 1          1 兀 一儿sx
 1          1 丌 一[介底]sx
 1          1 开 一廾sx
@@ -44,7 +44,7 @@ CC 串叉   如：秉乘
 1          1 丐 正[竖折勾]sx
 1          1 丏 正[横折勾]sx
 1          1 [币] 一巾sx
-1          1 疋 [横折][足底]sx
+1          1 疋 乛[足底]sx
 1          1 [至头] 一厶sx
 1          1 [是底] 一[足底]sx
 1          1 [寅中] 一由sx
@@ -133,10 +133,10 @@ CC 串叉   如：秉乘
 1          1 匆 勿丶cd
 1          1 怱 匆心sx
 1          1 [祭头] [炙头]又
-1          1 [登头] 又丬
+1          1 癶 又丬
 # 丶
-#1          1 主 丶王sx
 # 亠
+#1          1 主 丶王sx
 1          1 亡 亠[竖折]sx
 1          1 巟 亡[儿3]sx
 1          1 言 亠二口sx
@@ -180,7 +180,7 @@ CC 串叉   如：秉乘
 1          1 已 己
 #1          1 巳 己
 #1          1 弗 弓[介底]cd
-1          1 丑 [横折]土ys
+1          1 丑 乛土ys
 1          1 [节底] 卩
 1          1 卫 卩一
 1           1 [那左] [司头][丰2]
@@ -228,7 +228,7 @@ CC 串叉   如：秉乘
 #1          1 [春头] 大{三}
 #1          1 央 冖大
 1          1 [央] 央
-#1          1 [决右] [横折]大
+#1          1 [决右] 乛大
 # 小
 1          1 [水1] 水
 #1          1 [水边] [四点]
@@ -256,8 +256,6 @@ CC 串叉   如：秉乘
 1          1 [木勾] 木
 # 彐
 #1          1 [反彐] 彐
-#1          1 [山丿] 山
-#1          1 出 [山丿]凵
 1          1 出 山山
 1          1 [庚底] 彐人cd
 1          1 [争底] 彐丨cd
@@ -271,7 +269,7 @@ CC 串叉   如：秉乘
 1          1 [捷右] [妻头][足底]sx
 1          1 [印左] [反彐]
 1          1 [录头] 彐
-1          1 [蚩头] [山丿]一sx
+1          1 [蚩头] 屮一sx
 1          1 [市] 一巾cd
 1          1 [制左] [竹半]巾cd
 # 戈
@@ -318,16 +316,10 @@ CC 串叉   如：秉乘
 1          1
 1          1
 1          1 竹 [竹半][竹半]
-1          1 [竹] [竹半]
-#1          1 爫 丿[爪1]
 1          1 饣 [刀头][竖提]sx
-#1          1 彳 丿亻sx
 1          1 雨 巾[四点]cd
 1          1 米 丷木cd
-#1          1 疒 广冫
-#1          1 [足] 口止sx
 1          1 走 土[足底]sx
-1          1 [虎] [上头]厂
 1          1 鼠 臼[鼠底]
 1          1 舟 丿廾sx
 1          1 矛 予丿
@@ -372,7 +364,7 @@ CC 串叉   如：秉乘
 1          1 [叔左] 上小SX
 1          1 [鼓左] 士口[前头]SX
 1          1 [疑左] 匕矢sx
-1          1 [朔左] [前头][山丿]
+1          1 [朔左] [前头]屮
 1          1 [敖左] [青头][万底]sx
 1          1
 1          1
@@ -562,12 +554,12 @@ ba      B0C6 捌 扌别
 ba      B0C7 扒 扌八
 ba      B0C8 叭 口八
 ba      B0C9 吧 口巴
-ba      B0CA 笆 [竹] 巴SX
+ba      B0CA 笆 ⺮ 巴SX
 ba      B0CB 八
 ba      B0CC 疤 疒巴ZS
 ba      B0CD 巴
 ba      B0CE 拔 扌[拔右]
-ba      B0CF 跋 [足][拔右]
+ba      B0CF 跋 ⻊[拔右]
 ba      B0D0 靶 革巴
 ba      B0D1 把 扌巴
 ba      B0D2 耙 耒巴
@@ -657,7 +649,7 @@ bao     E6DF 孢 子包
 bao     ECD2 煲 保火SX
 bao     F0B1 鸨 (匕十SX)鸟
 bao     F1D9 褓 衤保
-bao     F5C0 趵 [足]勺
+bao     F5C0 趵 ⻊勺
 bao     F6B5 龅 齿包
 bei     B1AD 杯 木不
 bei     B1AE 碑 石卑
@@ -690,7 +682,7 @@ bei     F7B9 鞴 革([共头]用SX)
 ben     B1BC 奔 大卉SX
 ben     B1BD 苯 艹本SX
 ben     B1BE 本 木一cd
-ben     B1BF 笨 [竹]本SX
+ben     B1BF 笨 ⺮本SX
 ben     BABB 夯 大力SX
 ben     DBCE 畚 厶奋SX
 ben     DBD0 坌 分土SX
@@ -701,7 +693,7 @@ beng    B1C0 崩 山朋SX
 beng    B1C1 绷 纟朋
 beng    B1C2 甭 不用SX
 beng    B1C3 泵 石水SX
-beng    B1C4 蹦 [足]崩
+beng    B1C4 蹦 ⻊崩
 beng    B1C5 迸 辶并ZX
 beng    E0D4 嘣 口崩
 beng    EAB4 甏 彭瓦SX
@@ -709,7 +701,7 @@ bi      B1C6 逼 辶[福右]SX
 bi      B1C7 鼻 自畀SX
 bi      B1C8 比 匕匕
 bi      B1C9 鄙 (口十回SX)阝
-bi      B1CA 笔 [竹]毛SX
+bi      B1CA 笔 ⺮毛SX
 bi      B1CB 彼 彳皮
 bi      B1CC 碧 (王白)石SX
 bi      B1CD 蓖 艹囟比SX
@@ -755,12 +747,12 @@ bi      EEAF 畀 田丌SX
 bi      EEE9 铋 钅必
 bi      EFF5 秕 禾比
 bi      F1D4 裨 衤卑
-bi      F3D9 筚 [竹]毕SX
-bi      F3EB 箅 [竹]畀SX
-bi      F3F7 篦 [竹]囟比SX
+bi      F3D9 筚 ⺮毕SX
+bi      F3EB 箅 ⺮畀SX
+bi      F3F7 篦 ⺮囟比SX
 bi      F4B0 舭 舟比
 bi      F4C5 襞 辟衣SX
-bi      F5CF 跸 [足]毕
+bi      F5CF 跸 ⻊毕
 bi      F7C2 髀 骨卑
 bian    B1DE 鞭 革便
 bian    B1DF 边 辶力ZX
@@ -786,7 +778,7 @@ bian    EDDC 碥 石扁
 bian    F1B9 窆 穴乏SX
 bian    F1DB 褊 衤扁
 bian    F2F9 蝙 虫扁
-bian    F3D6 笾 [竹]边SX
+bian    F3D6 笾 ⺮边SX
 bian    F6FD 鳊 鱼扁
 biao    B1EA 标 木示
 biao    B1EB 彪 虎彡ZX
@@ -852,7 +844,7 @@ bo      B2A9 博 [竖十][博右]
 bo      B2AA 勃 孛力
 bo      B2AB 搏 扌[博右]
 bo      B2AC 铂 钅白
-bo      B2AD 箔 [竹]泊SX
+bo      B2AD 箔 ⺮泊SX
 bo      B2AE 伯 亻白
 bo      B2AF 帛 白巾SX
 bo      B2B0 舶 舟白
@@ -871,9 +863,9 @@ bo      EBA2 擘 辟手SX
 bo      EDE7 礴 石薄
 bo      EEE0 钹 钅[拔右]
 bo      F0BE 鹁 孛鸟
-bo      F4A4 簸 [竹](其皮)SX
-bo      F5CB 跛 [足]皮
-bo      F5DB 踣 [足][倍右]
+bo      F4A4 簸 ⺮(其皮)SX
+bo      F5CB 跛 ⻊皮
+bo      F5DB 踣 ⻊[倍右]
 bu      B1A4 堡 保土SX
 bu      B2B6 捕 扌甫
 bu      B2B7 卜
@@ -883,7 +875,7 @@ bu      B2BA 埠 土阜
 bu      B2BB 不
 bu      B2BC 布 [友边] 巾ZS
 bu      B2BD 步 止[少]SX
-bu      B2BE 簿 [竹]溥SX
+bu      B2BE 簿 ⺮溥SX
 bu      B2BF 部 [倍右]阝
 bu      B2C0 怖 忄布
 bu      C6D2 埔 土甫
@@ -904,7 +896,7 @@ cai     B2C4 材 木才
 cai     B2C5 才
 cai     B2C6 财 贝才
 cai     B2C7 睬 目采
-cai     B2C8 踩 [足]采
+cai     B2C8 踩 ⻊采
 cai     B2C9 采 爫木SX
 cai     B2CA 彩 采彡
 cai     B2CB 菜 艹采SX
@@ -938,7 +930,7 @@ cao     E4EE 漕 氵曹
 cao     F3A9 螬 虫曹
 cao     F4BD 艚 舟曹
 ce      B2DE 厕 厂则ZS
-ce      B2DF 策 [竹]朿SX
+ce      B2DF 策 ⺮朿SX
 ce      B2E0 侧 亻则
 ce      B2E1 册
 ce      B2E2 测 氵则
@@ -947,7 +939,7 @@ cen     B2CE 参 厶大彡SX
 cen     E1AF 岑 山今SX
 cen     E4B9 涔 氵岑
 ceng    B2E3 层 尸云ZS
-ceng    B2E4 蹭 [足]曾
+ceng    B2E4 蹭 ⻊曾
 ceng    D4F8 曾 [曾头]日SX
 ceng    E0E1 噌 口曾
 cha     B2E5 插 扌[插右]
@@ -1009,7 +1001,7 @@ chan    EAE8 觇 占见
 chan    ECF8 禅 礻单
 chan    EFE2 镡 钅覃
 chan    F3B8 蟾 虫詹
-chan    F5F0 躔 [足]廛
+chan    F5F0 躔 ⻊廛
 chang   B2FD 昌 日日sx
 chang   B2FE 猖 犭昌
 chang   B3A1 场 土[场右]
@@ -1144,10 +1136,10 @@ chi     F1A1 瘛 疒((丰刀)心SX)ZS
 chi     F1DD 褫 衤([厂]虎ZS)
 chi     F2BF 蚩 [蚩头]虫SX
 chi     F3A4 螭 虫离
-chi     F3D7 笞 [竹]台SX
-chi     F3F8 篪 [竹]([厂]虎ZS)SX
+chi     F3D7 笞 ⺮台SX
+chi     F3F8 篪 ⺮([厂]虎ZS)SX
 chi     F4F9 豉 豆支
-chi     F5D8 踟 [足]知
+chi     F5D8 踟 ⻊知
 chi     F7CE 魑 鬼离ZX
 chong   B3E4 充 [云]儿SX
 chong   B3E5 冲 冫中
@@ -1166,10 +1158,10 @@ chong   F4BE 艟 舟童
 chou    B3E9 抽 扌由
 chou    B3EA 酬 酉州
 chou    B3EB 畴 田寿
-chou    B3EC 踌 [足]寿
+chou    B3EC 踌 ⻊寿
 chou    B3ED 稠 禾周
 chou    B3EE 愁 秋心SX
-chou    B3EF 筹 [竹]寿SX
+chou    B3EF 筹 ⺮寿SX
 chou    B3F0 仇 亻九
 chou    B3F1 绸 纟周
 chou    B3F2 瞅 目秋
@@ -1184,7 +1176,7 @@ chu     B3F5 初 衤刀
 chu     B3F6 出
 chu     B3F7 橱 木厨
 chu     B3F8 厨 厂(豆寸)ZS
-chu     B3F9 躇 [足]著
+chu     B3F9 躇 ⻊著
 chu     B3FA 锄 钅助
 chu     B3FB 雏 刍隹
 chu     B3FC 滁 氵除
@@ -1207,14 +1199,14 @@ chu     E8FA 楮 木者
 chu     E9CB 樗 木(雨亏SX)
 chu     F1D2 褚 衤者
 chu     F2DC 蜍 虫余
-chu     F5E9 蹰 [足]厨
+chu     F5E9 蹰 ⻊厨
 chu     F7ED 黜 黑出
 chuai   B4A7 揣 扌[瑞右]
 chuai   DEF5 搋 扌([厂]虎ZS)
 chuai   E0A8 啜 口(双双SX)
 chuai   E0DC 嘬 口最
 chuai   EBFA 膪 月啻
-chuai   F5DF 踹 [足][瑞右]
+chuai   F5DF 踹 ⻊[瑞右]
 chuan   B4A8 川
 chuan   B4A9 穿 穴牙SX
 chuan   B4AA 椽 木彖
@@ -1258,7 +1250,7 @@ chuo    B4C1 戳 翟戈
 chuo    B4C2 绰 纟卓
 chuo    E0A8 啜 口(双双SX)
 chuo    EAA1 辍 车(双双SX)
-chuo    F5D6 踔 [足]卓
+chuo    F5D6 踔 ⻊卓
 chuo    F6BA 龊 齿足
 ci      B2EE 差 [羊]工ZS
 ci      B4C3 疵 疒此ZS
@@ -1298,7 +1290,7 @@ cou     EAA3 辏 车奏
 cou     EBED 腠 月奏
 cu      B4D6 粗 米且
 cu      B4D7 醋 酉昔
-cu      B4D8 簇 [竹]族sx
+cu      B4D8 簇 ⺮族sx
 cu      B4D9 促 亻足
 cu      D7E4 卒 亠从十SX
 cu      DDFD 蔟 艹族sx
@@ -1307,9 +1299,9 @@ cu      E2A7 猝 犭卒
 cu      E9E3 殂 歹且
 cu      F5A1 酢 酉乍
 cu      F5BE 蹙 戚足SX
-cu      F5ED 蹴 [足]就
-cuan    B4DA 蹿 [足]窜
-cuan    B4DB 篡 [竹]目大厶SX
+cu      F5ED 蹴 ⻊就
+cuan    B4DA 蹿 ⻊窜
+cuan    B4DB 篡 ⺮目大厶SX
 cuan    B4DC 窜 穴串SX
 cuan    D4DC 攒 扌赞
 cuan    D9E0 汆 入水SX
@@ -1334,7 +1326,7 @@ cui     EBA5 毳 毛(毛毛)SX
 cun     B4E5 村 木寸
 cun     B4E6 存 [在边]子ZS
 cun     B4E7 寸 [十勾]丶ys
-cun     B6D7 蹲 [足]尊
+cun     B6D7 蹲 ⻊尊
 cun     E2E2 忖 忄寸
 cun     F1E5 皴 [俊右]皮
 cuo     B4E8 磋 石差
@@ -1351,10 +1343,10 @@ cuo     EFF3 矬 矢坐
 cuo     F0EE 痤 疒坐zs
 cuo     F0FB 瘥 疒差zs
 cuo     F5BA 鹾 卤差
-cuo     F5E3 蹉 [足]差
+cuo     F5E3 蹉 ⻊差
 da      B4EE 搭 扌[搭右]
 da      B4EF 达 辶大ZX
-da      B4F0 答 [竹]合SX
+da      B4F0 答 ⺮合SX
 da      B4F1 瘩 疒[搭右]ZS
 da      B4F2 打 扌丁
 da      B4F3 大
@@ -1366,7 +1358,7 @@ da      E6A7 妲 女旦
 da      EDB3 沓 水日SX
 da      F0E3 疸 疒旦ZS
 da      F1D7 褡 衤[搭右]
-da      F3CE 笪 [竹]旦SX
+da      F3CE 笪 ⺮旦SX
 da      F7B0 靼 革旦
 da      F7B2 鞑 革达
 dai     B4F3 大
@@ -1417,7 +1409,7 @@ dan     EDF1 眈 目[沈右]
 dan     F0E3 疸 疒旦ZS
 dan     F0F7 瘅 疒单ZS
 dan     F1F5 聃 耳冉
-dan     F3EC 箪 [竹]单SX
+dan     F3EC 箪 ⺮单SX
 dang    B5B1 当 [尚头]彐sx
 dang    B5B2 挡 扌当
 dang    B5B3 党 [党头]兄SX
@@ -1432,7 +1424,7 @@ dang    EEF5 铛 钅当
 dang    F1C9 裆 衤当
 dao     B5B6 刀
 dao     B5B7 捣 扌岛
-dao     B5B8 蹈 [足]舀
+dao     B5B8 蹈 ⻊舀
 dao     B5B9 倒 亻到
 dao     B5BA 岛 [鸟]山YS
 dao     B5BB 祷 礻寿
@@ -1456,10 +1448,10 @@ de      B5D8 地 土也
 de      EFBD 锝 钅[得右]
 dei     B5C3 得 彳[得右]
 deng    B3CE 澄 氵登
-deng    B5C5 蹬 [足]登
+deng    B5C5 蹬 ⻊登
 deng    B5C6 灯 火丁
-deng    B5C7 登 [登头]豆SX
-deng    B5C8 等 [竹]寺SX
+deng    B5C7 登 癶豆SX
+deng    B5C8 等 ⺮寺SX
 deng    B5C9 瞪 目登
 deng    B5CA 凳 登几SX
 deng    B5CB 邓 又阝
@@ -1468,14 +1460,14 @@ deng    E1D8 嶝 山登
 deng    EAAD 戥 星戈
 deng    EDE3 磴 石登
 deng    EFEB 镫 钅登
-deng    F4A3 簦 [竹]登SX
+deng    F4A3 簦 ⺮登SX
 di      B5C4 的 白勺
 di      B5CC 堤 土是
 di      B5CD 低 亻氐
 di      B5CE 滴 氵[滴右]
 di      B5CF 迪 辶由ZX
 di      B5D0 敌 舌攵
-di      B5D1 笛 [竹]由
+di      B5D1 笛 ⺮由
 di      B5D2 狄 犭火
 di      B5D3 涤 氵条
 di      B5D4 翟 羽隹SX
@@ -1484,7 +1476,7 @@ di      B5D6 抵 扌氐
 di      B5D7 底 广氐ZS
 di      B5D8 地 土也
 di      B5D9 蒂 艹帝SX
-di      B5DA 第 [竹][弟]SX
+di      B5DA 第 ⺮[弟]SX
 di      B5DB 帝 [帝头]巾SX
 di      B5DC 弟 丷[弟]SX
 di      B5DD 递 辶弟ZX
@@ -1532,8 +1524,8 @@ dian    E7E8 玷 王占
 dian    EEE4 钿 钅田
 dian    F1B0 癜 疒殿ZS
 dian    F1B2 癫 疒颠ZS
-dian    F4A1 簟 [竹]覃SX
-dian    F5DA 踮 [足]店
+dian    F4A1 簟 ⺮覃SX
+dian    F5DA 踮 ⻊店
 diao    B5EF 碉 石周
 diao    B5F0 叼 口刁
 diao    B5F1 雕 周隹
@@ -1548,7 +1540,7 @@ diao    EEF6 铞 钅吊
 diao    EFA2 铫 钅兆
 diao    F5F5 貂 豸召
 diao    F6F4 鲷 鱼周
-die     B5F8 跌 [足]失
+die     B5F8 跌 ⻊失
 die     B5F9 爹 父多SX
 die     B5FA 碟 石[蝶右]
 die     B5FB 蝶 虫[蝶右]
@@ -1562,7 +1554,7 @@ die     E0A9 喋 口[蝶右]
 die     EBBA 牒 片[蝶右]
 die     F0AC 瓞 瓜失ZX
 die     F1F3 耋 老至SX
-die     F5DE 蹀 [足][蝶右]
+die     F5DE 蹀 ⻊[蝶右]
 die     F6F8 鲽 鱼[蝶右]
 ding    B6A1 丁
 ding    B6A2 盯 目丁
@@ -1616,7 +1608,7 @@ dou     B6C1 读 讠卖
 dou     DDFA 蔸 艹兜SX
 dou     F1BC 窦 穴卖SX
 dou     F2BD 蚪 虫斗
-dou     F3FB 篼 [竹]兜SX
+dou     F3FB 篼 ⺮兜SX
 du      B6BC 都 者阝
 du      B6BD 督 叔目SX
 du      B6BE 毒 [青头]母SX
@@ -1639,7 +1631,7 @@ du      E4C2 渎 氵卖
 du      E8FC 椟 木卖
 du      EBB9 牍 片卖
 du      F3BC 蠹 [囊头]石(虫虫)SX
-du      F3C6 笃 [竹]马SX
+du      F3C6 笃 ⺮马SX
 du      F7C7 髑 骨蜀
 du      F7F2 黩 黑卖
 duan    B6CB 端 立[瑞右]
@@ -1650,7 +1642,7 @@ duan    B6CF 断 (米[竖折]ZX)斤
 duan    B6D0 缎 纟段
 duan    E9B2 椴 木段
 duan    ECD1 煅 火段
-duan    F3FD 簖 [竹]断SX
+duan    F3FD 簖 ⺮断SX
 dui     B6D1 堆 土隹
 dui     B6D2 兑 丷兄SX
 dui     B6D3 队 阝人
@@ -1662,7 +1654,7 @@ dui     EDD4 碓 石隹
 dui     EFE6 镦 钅敦
 dun     B6D5 墩 土敦
 dun     B6D6 吨 口屯
-dun     B6D7 蹲 [足]尊
+dun     B6D7 蹲 ⻊尊
 dun     B6D8 敦 享攵
 dun     B6D9 顿 屯页
 dun     B6DA 囤 囗屯QB
@@ -1682,7 +1674,7 @@ duo     B6E1 夺 大寸SX
 duo     B6E2 垛 土朵
 duo     B6E3 躲 身朵
 duo     B6E4 朵 几木SX
-duo     B6E5 跺 [足]朵
+duo     B6E5 跺 ⻊朵
 duo     B6E6 舵 舟它
 duo     B6E7 剁 朵刂
 duo     B6E8 惰 忄(左月SX)
@@ -1695,7 +1687,7 @@ duo     E7B6 缍 纟垂
 duo     E8DE 柁 木它
 duo     EEEC 铎 钅[泽右]
 duo     F1D6 裰 衤(双双SX)
-duo     F5E2 踱 [足]度
+duo     F5E2 踱 ⻊度
 e       B0A2 阿 阝可
 e       B6EA 蛾 虫我
 e       B6EB 峨 山我
@@ -1749,7 +1741,7 @@ er      F0B9 鸸 而鸟
 er      F6DC 鲕 鱼而
 fa      B7A2 发
 fa      B7A3 罚 罒(讠刂)SX
-fa      B7A4 筏 [竹]伐
+fa      B7A4 筏 ⺮伐
 fa      B7A5 伐 亻戈
 fa      B7A6 乏 丿之SX
 fa      B7A7 阀 门伐SB
@@ -1780,7 +1772,7 @@ fan     E1A6 幡 巾番
 fan     E8F3 梵 林凡SX
 fan     ECDC 燔 火番
 fan     EEB2 畈 田反
-fan     F5EC 蹯 [足]番
+fan     F5EC 蹯 ⻊番
 fang    B7BB 坊 土方
 fang    B7BC 芳 艹方SX
 fang    B7BD 方 亠[万底]sx
@@ -1824,7 +1816,7 @@ fei     ECE9 扉 户非ZS
 fei     EFD0 镄 钅费
 fei     F0F2 痱 疒非ZS
 fei     F2E3 蜚 非虫SX
-fei     F3F5 篚 [竹]匪SX
+fei     F3F5 篚 ⺮匪SX
 fei     F4E4 翡 非羽SX
 fei     F6AD 霏 雨非SX
 fei     F6EE 鲱 鱼非
@@ -1883,7 +1875,7 @@ fu      B7F7 拂 扌弗
 fu      B7F8 辐 车[福右]
 fu      B7F9 幅 巾[福右]
 fu      B7FA 氟 气弗YS
-fu      B7FB 符 [竹]付SX
+fu      B7FB 符 ⺮付SX
 fu      B7FC 伏 亻犬
 fu      B7FD 俘 亻孚
 fu      B7FE 服 月[报右]
@@ -1952,8 +1944,8 @@ fu      F2DD 蜉 虫孚
 fu      F2F0 蝠 虫[福右]
 fu      F2F3 蝮 虫复
 fu      F4EF 麸 麦夫
-fu      F5C3 趺 [足]夫
-fu      F5C6 跗 [足]付
+fu      F5C3 趺 ⻊夫
+fu      F5C6 跗 ⻊付
 fu      F6D6 鲋 鱼付
 fu      F6FB 鳆 鱼复
 ga      B8C1 噶 口葛
@@ -1961,13 +1953,13 @@ ga      B8C2 嘎 口戛
 ga      B8EC 胳 月各
 ga      BCD0 夹
 ga      BFA7 咖 口加
-ga      D4FE 轧 车[儿右]
+ga      D4FE 轧 车乚
 ga      D9A4 伽 亻加
 ga      DECE 尬 尢介ZX
 ga      E6D8 尕 乃小SX
 ga      E6D9 尜 尖小SX
 ga      EAB8 旮 九日SX
-ga      EEC5 钆 钅[儿右]
+ga      EEC5 钆 钅乚
 gai     B8C3 该 讠亥
 gai     B8C4 改 己攵
 gai     B8C5 概 木既
@@ -1984,12 +1976,12 @@ gan     B8C9 干
 gan     B8CA 甘
 gan     B8CB 杆 木干
 gan     B8CC 柑 木甘
-gan     B8CD 竿 [竹]干SX
+gan     B8CD 竿 ⺮干SX
 gan     B8CE 肝 月干
 gan     B8CF 赶 走干ZX
 gan     B8D0 感 咸心SX
 gan     B8D1 秆 禾干
-gan     B8D2 敢 ([横折]耳SX)攵
+gan     B8D2 敢 (乛耳SX)攵
 gan     B8D3 赣 章(夂贡SX)
 gan     C7AC 乾 [朝左]乞
 gan     DBE1 坩 土甘
@@ -2017,8 +2009,8 @@ gang    B8DC 杠 木工
 gang    BFB8 扛 扌工
 gang    EDB0 戆 赣心SX
 gang    EEB8 罡 罒正SX
-gang    F3E0 筻 [竹]更
-gao     B8DD 篙 [竹]高
+gang    F3E0 筻 ⺮更
+gao     B8DD 篙 ⺮高
 gao     B8DE 皋 白大十SX
 gao     B8DF 高 亠口[尚底]sx
 gao     B8E0 膏 高月SX
@@ -2075,7 +2067,7 @@ ge      F4B4 舸 舟可
 ge      F7C0 骼 骨各
 gei     B8F8 给 纟合
 gen     B8F9 根 木艮
-gen     B8FA 跟 [足]艮
+gen     B8FA 跟 ⻊艮
 gen     D8A8 亘 一旦SX
 gen     DDA2 茛 艹艮
 gen     DFE7 哏 口艮
@@ -2131,13 +2123,13 @@ gou     E7C3 缑 纟侯
 gou     E8DB 枸 木句
 gou     EAED 觏 [媾右]见
 gou     ECB0 彀 ([壳头]一弓SX)殳
-gou     F3D1 笱 [竹]句SX
-gou     F3F4 篝 [竹][媾右]SX
+gou     F3D1 笱 ⺮句SX
+gou     F3F4 篝 ⺮[媾右]SX
 gou     F7B8 鞲 革[媾右]
 gu      B9BC 辜 古辛SX
 gu      B9BD 菇 艹姑SX
 gu      B9BE 咕 口古
-gu      B9BF 箍 [竹](扌匝)SX
+gu      B9BF 箍 ⺮(扌匝)SX
 gu      B9C0 估 亻古
 gu      B9C1 沽 氵古
 gu      B9C2 孤 子瓜
@@ -2199,7 +2191,7 @@ guan    B9D8 关
 guan    B9D9 官 宀[官底]XS
 guan    B9DA 冠 冖(元寸ZX)SX
 guan    B9DB 观 又见
-guan    B9DC 管 [竹]官
+guan    B9DC 管 ⺮官
 guan    B9DD 馆 饣官
 guan    B9DE 罐 缶[灌右]
 guan    B9DF 惯 忄贯
@@ -2231,10 +2223,10 @@ gui     B9EB 闺 门圭SB
 gui     B9EC 轨 车九
 gui     B9ED 鬼
 gui     B9EE 诡 讠危
-gui     B9EF 癸 [登头]天SX
+gui     B9EF 癸 癶天SX
 gui     B9F0 桂 木圭
 gui     B9F1 柜 木巨
-gui     B9F2 跪 [足]危
+gui     B9F2 跪 ⻊危
 gui     B9F3 贵 [贵头]贝SX
 gui     B9F4 刽 会刂
 gui     BFFE 傀 亻鬼
@@ -2248,7 +2240,7 @@ gui     E8ED 桧 木会
 gui     EAC1 炅 日火SX
 gui     EAD0 晷 日咎SX
 gui     F0A7 皈 白反
-gui     F3FE 簋 [竹]艮皿SX
+gui     F3FE 簋 ⺮艮皿SX
 gui     F6D9 鲑 鱼圭
 gui     F7AC 鳜 鱼厥
 gun     B9F5 辊 车昆
@@ -2428,7 +2420,7 @@ hou     DCA9 堠 土侯
 hou     E1E1 後 彳(幺夂SX)
 hou     E5CB 逅 辶后ZX
 hou     F0FA 瘊 疒侯ZS
-hou     F3F3 篌 [竹]侯SX
+hou     F3F3 篌 ⺮侯SX
 hou     F4D7 糇 米侯
 hou     F6D7 鲎 [觉头]鱼SX
 hou     F7BF 骺 骨后
@@ -2447,7 +2439,7 @@ hu      BAFC 狐 犭瓜
 hu      BAFD 糊 米胡
 hu      BAFE 湖 氵胡
 hu      BBA1 弧 弓瓜
-hu      BBA2 虎 [虎]几ZS
+hu      BBA2 虎 虍几ZS
 hu      BBA3 唬 口虎
 hu      BBA4 护 扌户
 hu      BBA5 互
@@ -2462,7 +2454,7 @@ hu      E2A9 猢 犭胡
 hu      E2EF 怙 忄古
 hu      E3B1 惚 忄忽
 hu      E4B0 浒 氵许
-hu      E4EF 滹 氵([虎]乎ZS)
+hu      E4EF 滹 氵(虍乎ZS)
 hu      E7FA 琥 王虎
 hu      E9CE 槲 木斛
 hu      E9F5 轷 车乎
@@ -2475,7 +2467,7 @@ hu      ECEF 祜 礻古
 hu      F0AD 瓠 夸瓜
 hu      F0C9 鹕 胡鸟
 hu      F0D7 鹱 鸟(萑又SX)
-hu      F3CB 笏 [竹]勿SX
+hu      F3CB 笏 ⺮勿SX
 hu      F5AD 醐 酉胡
 hu      F5FA 斛 角斗
 hu      F7BD 鹘 骨鸟
@@ -2498,7 +2490,7 @@ huai    BBB2 徊 彳回
 huai    BBB3 怀 忄不
 huai    BBB4 淮 氵隹
 huai    BBB5 坏 土不
-huai    F5D7 踝 [足]果
+huai    F5D7 踝 ⻊果
 huan    BBB6 欢 又欠
 huan    BBB7 环 王不
 huan    BBB8 桓 木亘
@@ -2533,7 +2525,7 @@ huang   BBC5 慌 忄荒
 huang   BBC6 黄 [共头]由八sx
 huang   BBC7 磺 石黄
 huang   BBC8 蝗 虫皇
-huang   BBC9 簧 [竹]黄SX
+huang   BBC9 簧 ⺮黄SX
 huang   BBCA 皇 白王SX
 huang   BBCB 凰 [风边]皇SB
 huang   BBCC 惶 忄皇
@@ -2551,7 +2543,7 @@ huang   E8AB 璜 王黄
 huang   EBC1 肓 亡月SX
 huang   F1A5 癀 疒黄ZS
 huang   F3A8 蟥 虫黄
-huang   F3F2 篁 [竹]皇SX
+huang   F3F2 篁 ⺮皇SX
 huang   F6FC 鳇 鱼皇
 hui     BBD2 灰 [友边]火ZS
 hui     BBD3 挥 扌军
@@ -2635,7 +2627,7 @@ ji      BBFA 机 木几
 ji      BBFB 畸 田奇
 ji      BBFC 稽 禾(尤旨SX)
 ji      BBFD 积 禾只
-ji      BBFE 箕 [竹]其SX
+ji      BBFE 箕 ⺮其SX
 ji      BCA1 肌 月几
 ji      BCA2 饥 饣几
 ji      BCA3 迹 辶亦ZX
@@ -2649,7 +2641,7 @@ ji      BCAA 吉 士口SX
 ji      BCAB 极 木及
 ji      BCAC 棘 朿朿
 ji      BCAD 辑 车[辑右]
-ji      BCAE 籍 [竹](耒昔)SX
+ji      BCAE 籍 ⺮(耒昔)SX
 ji      BCAF 集 隹木SX
 ji      BCB0 及
 ji      BCB1 急 刍心SX
@@ -2689,7 +2681,7 @@ ji      C6EB 齐 文[介底]SX
 ji      CFB5 系 丿糸SX
 ji      D8A2 丌
 ji      D8BD 亟 (了口又ZQ)一SX
-ji      D8C0 乩 占[儿右]
+ji      D8C0 乩 占乚
 ji      D8DE 剞 奇刂
 ji      D9A5 佶 亻吉
 ji      D9CA 偈 亻曷
@@ -2726,11 +2718,11 @@ ji      EFFA 嵇 禾(尤山SX)
 ji      F0A2 稷 禾[稷右]
 ji      F1A4 瘠 疒脊ZS
 ji      F2B1 虮 虫几
-ji      F3C5 笈 [竹]及
-ji      F3C7 笄 [竹]开
+ji      F3C5 笈 ⺮及
+ji      F3C7 笄 ⺮开
 ji      F4DF 暨 既旦SX
-ji      F5D2 跻 [足]齐
-ji      F5D5 跽 [足]忌
+ji      F5D2 跻 ⻊齐
+ji      F5D5 跽 ⻊忌
 ji      F6AB 霁 雨齐SX
 ji      F6DD 鲚 鱼齐
 ji      F6EA 鲫 鱼即
@@ -2771,14 +2763,14 @@ jia     F0E8 痂 疒加ZS
 jia     F0FD 瘕 疒[假右]ZS
 jia     F1CA 袷 衤合
 jia     F2CC 蛱 虫夹
-jia     F3D5 笳 [竹]加SX
+jia     F3D5 笳 ⺮加SX
 jia     F4C2 袈 加衣SX
-jia     F5CA 跏 [足]加
+jia     F5CA 跏 ⻊加
 jian    BCDF 歼 歹千
 jian    BCE0 监 [监头]皿SX
 jian    BCE1 坚 [坚头]土SX
 jian    BCE2 尖 小大SX
-jian    BCE3 笺 [竹]戋SX
+jian    BCE3 笺 ⺮戋SX
 jian    BCE4 间 门日SB
 jian    BCE5 煎 前灬SX
 jian    BCE6 兼 [前头][兼底]sx
@@ -2793,18 +2785,18 @@ jian    BCEE 碱 石咸
 jian    BCEF 硷 石佥
 jian    BCF0 拣 扌[东]
 jian    BCF1 捡 扌佥
-jian    BCF2 简 [竹]间SX
+jian    BCF2 简 ⺮间SX
 jian    BCF3 俭 亻佥
 jian    BCF4 剪 前刀SX
 jian    BCF5 减 冫咸
 jian    BCF6 荐 艹存SX
 jian    BCF7 槛 木监
 jian    BCF8 鉴 [监头]金SX
-jian    BCF9 践 [足]戋
+jian    BCF9 践 ⻊戋
 jian    BCFA 贱 贝戋
 jian    BCFB 见 [贝头][见底]sx
 jian    BCFC 键 钅建
-jian    BCFD 箭 [竹]前
+jian    BCFD 箭 ⺮前
 jian    BCFE 件 亻牛
 jian    BDA1 健 亻建
 jian    BDA2 舰 舟见
@@ -2838,10 +2830,10 @@ jian    EDFA 睑 目佥
 jian    EFB5 锏 钅间
 jian    F0CF 鹣 兼鸟
 jian    F1D0 裥 衤间
-jian    F3C8 笕 [竹]见SX
+jian    F3C8 笕 ⺮见SX
 jian    F4E5 翦 前羽SX
-jian    F5C2 趼 [足]开
-jian    F5DD 踺 [足]建
+jian    F5C2 趼 ⻊开
+jian    F5DD 踺 ⻊建
 jian    F6E4 鲣 鱼坚
 jian    F7B5 鞯 革荐
 jiang   BAE7 虹 虫工
@@ -2914,7 +2906,7 @@ jiao    F0A8 皎 白交
 jiao    F0D4 鹪 焦鸟
 jiao    F2D4 蛟 虫交
 jiao    F5B4 醮 酉焦
-jiao    F5D3 跤 [足]交
+jiao    F5D3 跤 ⻊交
 jiao    F6DE 鲛 鱼交
 jie     BCD2 家 宀豕SX
 jie     BCDB 价 亻介
@@ -2963,7 +2955,7 @@ jie     F4C9 羯 羊曷
 jie     F6DA 鲒 鱼吉
 jie     F7BA 骱 骨介
 jin     BDED 巾
-jin     BDEE 筋 [竹]肋SX
+jin     BDEE 筋 ⺮肋SX
 jin     BDEF 斤
 jin     BDF0 金 人[金底]SX
 jin     BDF1 今 人[今底]SX
@@ -3088,8 +3080,8 @@ ju      BEDC 拒 扌巨
 ju      BEDD 据 扌居
 ju      BEDE 巨
 ju      BEDF 具 [且3][八]
-ju      BEE0 距 [足]巨
-ju      BEE1 踞 [足]居
+ju      BEE0 距 ⻊巨
+ju      BEE1 踞 ⻊居
 ju      BEE2 锯 钅居
 ju      BEE3 俱 亻具
 ju      BEE4 句 勹口YS
@@ -3103,7 +3095,7 @@ ju      DCC4 苣 艹巨SX
 ju      DCDA 苴 艹且SX
 ju      DCEC 莒 艹吕SX
 ju      DEE4 掬 扌[鞠右]
-ju      E5E1 遽 辶([虎]豕ZS)ZX
+ju      E5E1 遽 辶(虍豕ZS)ZX
 ju      E5F0 屦 尸(彳娄)ZS
 ju      E8A2 琚 王居
 ju      E8DB 枸 木句
@@ -3118,8 +3110,8 @@ ju      EFB8 锔 钅局
 ju      F1C0 窭 穴娄SX
 ju      F1D5 裾 衤居
 ju      F4F2 趄 走且ZX
-ju      F5B6 醵 酉([虎]豕ZS)
-ju      F5E1 踽 [足]禹
+ju      F5B6 醵 酉(虍豕ZS)
+ju      F5E1 踽 ⻊禹
 ju      F6B4 龃 齿且
 ju      F6C2 雎 且隹
 ju      F7B6 鞫 革訇
@@ -3159,7 +3151,7 @@ jue     DBC7 矍 (目目)隹又SX
 jue     DEA7 蕨 艹厥SX
 jue     E0B5 嗟 口差
 jue     E0D9 噘 口厥
-jue     E0E5 噱 口([虎]豕ZS)
+jue     E0E5 噱 口(虍豕ZS)
 jue     E1C8 崛 山屈
 jue     E2B1 獗 犭厥
 jue     E6DE 孓
@@ -3168,7 +3160,7 @@ jue     E8F6 桷 木角
 jue     E9D3 橛 木厥
 jue     ECDF 爝 火爵
 jue     EFE3 镢 钅厥
-jue     F5EA 蹶 [足]厥
+jue     F5EA 蹶 ⻊厥
 jue     F5FB 觖 角[决右]
 jun     B9EA 龟
 jun     BEF9 均 土匀
@@ -3184,7 +3176,7 @@ jun     BFA4 郡 君阝
 jun     BFA5 骏 马[俊右]
 jun     DEDC 捃 扌君
 jun     F1E4 皲 军皮
-jun     F3DE 筠 [竹]均SX
+jun     F3DE 筠 ⺮均SX
 jun     F6C1 隽 隹乃SX
 jun     F7E5 麇 鹿禾ZS
 ka      BFA6 喀 口客
@@ -3283,11 +3275,11 @@ keng    BFD4 吭 口亢
 keng    EFAC 铿 钅坚
 kong    BFD5 空 穴工SX
 kong    BFD6 恐 巩心SX
-kong    BFD7 孔 子[儿右]
+kong    BFD7 孔 子乚
 kong    BFD8 控 扌空
 kong    D9C5 倥 亻空
 kong    E1C7 崆 山空
-kong    F3ED 箜 [竹]空SX
+kong    F3ED 箜 ⺮空SX
 kou     BFD9 抠 扌区
 kou     BFDA 口
 kou     BFDB 扣 扌口
@@ -3296,7 +3288,7 @@ kou     DCD2 芤 艹孔SX
 kou     DEA2 蔻 艹寇SX
 kou     DFB5 叩 口卩
 kou     EDEE 眍 目区
-kou     F3D8 筘 [竹]扣SX
+kou     F3D8 筘 ⺮扣SX
 ku      BFDD 枯 木古
 ku      BFDE 哭 (口口)犬SX
 ku      BFDF 窟 穴屈SX
@@ -3312,12 +3304,12 @@ ku      F7BC 骷 骨古
 kua     BFE4 夸 大亏SX
 kua     BFE5 垮 土夸
 kua     BFE6 挎 扌夸
-kua     BFE7 跨 [足]夸
+kua     BFE7 跨 ⻊夸
 kua     BFE8 胯 月夸
 kua     D9A8 侉 亻夸
 kuai    BBE1 会 人云SX
 kuai    BFE9 块 土[决右]
-kuai    BFEA 筷 [竹]快SX
+kuai    BFEA 筷 ⺮快SX
 kuai    BFEB 侩 亻会
 kuai    BFEC 快 忄[决右]
 kuai    D8E1 蒯 (艹朋SX)刂
@@ -3330,7 +3322,7 @@ kuan    BFED 宽 宀艹见SX
 kuan    BFEE 款 (士示SX)欠
 kuan    F7C5 髋 骨宽
 kuang   BFEF 匡 匚王ZB
-kuang   BFF0 筐 [竹]匡SX
+kuang   BFF0 筐 ⺮匡SX
 kuang   BFF1 狂 犭王
 kuang   BFF2 框 木匡
 kuang   BFF3 矿 石广
@@ -3371,8 +3363,8 @@ kui     EAD2 暌 日癸
 kui     EEA5 睽 目癸
 kui     F1F9 聩 耳贵
 kui     F2F1 蝰 虫奎
-kui     F3F1 篑 [竹]贵SX
-kui     F5CD 跬 [足]圭
+kui     F3F1 篑 ⺮贵SX
+kui     F5CD 跬 ⻊圭
 kun     C0A4 坤 土申
 kun     C0A5 昆 日比SX
 kun     C0A6 捆 扌困
@@ -3414,12 +3406,12 @@ lai     EAE3 赉 来贝SX
 lai     EDF9 睐 目来
 lai     EFAA 铼 钅来
 lai     F1AE 癞 疒赖ZS
-lai     F4A5 籁 [竹]赖
+lai     F4A5 籁 ⺮赖
 lan     C0B6 蓝 艹监SX
 lan     C0B7 婪 林女SX
 lan     C0B8 栏 木兰
 lan     C0B9 拦 扌兰
-lan     C0BA 篮 [竹]监SX
+lan     C0BA 篮 ⺮监SX
 lan     C0BB 阑 门柬SB
 lan     C0BC 兰
 lan     C0BD 澜 氵阑
@@ -3508,7 +3500,7 @@ li      C0E5 厘 厂里ZS
 li      C0E6 梨 利木SX
 li      C0E7 犁 利牛SX
 li      C0E8 黎 [黎头]人[水1]SX
-li      C0E9 篱 [竹]离SX
+li      C0E9 篱 ⺮离SX
 li      C0EA 狸 犭里
 li      C0EB 离 [离头][离底]SX
 li      C0EC 漓 氵离
@@ -3516,7 +3508,7 @@ li      C0ED 理 王里
 li      C0EE 李 木子SX
 li      C0EF 里
 li      C0F0 鲤 鱼里
-li      C0F1 礼 礻[儿右]
+li      C0F1 礼 礻乚
 li      C0F2 莉 艹利SX
 li      C0F3 荔 艹力(力力)SX
 li      C0F4 吏
@@ -3572,11 +3564,11 @@ li      F0DF 疬 疒历ZS
 li      F2C3 蛎 虫厉
 li      F2DB 蜊 虫利
 li      F3BB 蠡 彖(虫虫)SX
-li      F3D2 笠 [竹]立SX
-li      F3F6 篥 [竹]栗SX
+li      F3D2 笠 ⺮立SX
+li      F3F6 篥 ⺮栗SX
 li      F4CF 粝 米厉
 li      F5B7 醴 酉(曲豆SX)
-li      F5C8 跞 [足]乐
+li      F5C8 跞 ⻊乐
 li      F6A8 雳 雨历SX
 li      F6E2 鲡 鱼丽
 li      F7AF 鳢 鱼(曲豆SX)
@@ -3622,7 +3614,7 @@ liang   C1C1 亮 [高头]几SX
 liang   C1C2 谅 讠京
 liang   DCAE 墚 土梁
 liang   E9A3 椋 木京
-liang   F5D4 踉 [足]良
+liang   F5D4 踉 ⻊良
 liang   F6A6 靓 青见
 liang   F7CB 魉 鬼两ZX
 liao    C1C3 撩 扌[僚右]
@@ -3657,7 +3649,7 @@ lie     DEE6 捩 扌戾
 lie     DFD6 咧 口列
 lie     E4A3 洌 氵列
 lie     F4F3 趔 走列ZX
-lie     F5F1 躐 [足][躐右]
+lie     F5F1 躐 ⻊[躐右]
 lie     F7E0 鬣 髟[躐右]SX
 lin     C1D5 琳 王林
 lin     C1D6 林 木木
@@ -3682,7 +3674,7 @@ lin     EAA5 辚 车[鳞右]
 lin     ECA2 膦 月[鳞右]
 lin     EEAC 瞵 目[鳞右]
 lin     F4D4 粼 [鳞右][巛2]
-lin     F5EF 躏 [足]蔺
+lin     F5EF 躏 ⻊蔺
 lin     F7EB 麟 鹿[鳞右]
 ling    C0E2 棱 木[凌右]
 ling    C1E1 玲 王令
@@ -3739,7 +3731,7 @@ lo      BFA9 咯 口各
 long    C1FA 龙
 long    C1FB 聋 龙耳SX
 long    C1FC 咙 口龙
-long    C1FD 笼 [竹]龙SX
+long    C1FD 笼 ⺮龙SX
 long    C1FE 窿 宀隆
 long    C2A1 隆 阝(夂一生SX)
 long    C2A2 垄 龙土SX
@@ -3757,7 +3749,7 @@ long    F1AA 癃 疒隆ZS
 lou     C2A5 楼 木娄
 lou     C2A6 娄 米女SX
 lou     C2A7 搂 扌娄
-lou     C2A8 篓 [竹]娄SX
+lou     C2A8 篓 ⺮娄SX
 lou     C2A9 漏 氵(尸雨ZS)
 lou     C2AA 陋 阝(丙[竖折]ZX)
 lou     C2B6 露 雨路SX
@@ -3778,12 +3770,12 @@ lu      C2AE 庐 广户ZS
 lu      C2AF 炉 火户
 lu      C2B0 掳 扌虏
 lu      C2B1 卤 [上头](囗乂qb)sx
-lu      C2B2 虏 [虎]力ZS
+lu      C2B2 虏 虍力ZS
 lu      C2B3 鲁 鱼日SX
 lu      C2B4 麓 林鹿SX
 lu      C2B5 碌 石录
 lu      C2B6 露 雨路SX
-lu      C2B7 路 [足]各
+lu      C2B7 路 ⻊各
 lu      C2B8 赂 贝各
 lu      C2B9 鹿
 lu      C2BA 潞 氵路
@@ -3810,7 +3802,7 @@ lu      EBCD 胪 月卢
 lu      EFE5 镥 钅鲁
 lu      F0B5 鸬 户鸟
 lu      F0D8 鹭 路鸟SX
-lu      F3FC 簏 [竹]鹿SX
+lu      F3FC 簏 ⺮鹿SX
 lu      F4B5 舻 舟卢
 lu      F6D4 鲈 鱼卢
 lu:     C2BF 驴 马户
@@ -3821,7 +3813,7 @@ lu:     C2C3 旅 方[旅右]
 lu:     C2C4 履 尸(彳复)ZS
 lu:     C2C5 屡 尸娄ZS
 lu:     C2C6 缕 纟娄
-lu:     C2C7 虑 [虎]心ZS
+lu:     C2C7 虑 虍心ZS
 lu:     C2C8 氯 气录YS
 lu:     C2C9 律 彳聿
 lu:     C2CA 率 亠(幺[四点]ZQ)十SX
@@ -3839,7 +3831,7 @@ luan    C2CE 挛 [亦]手SX
 luan    C2CF 孪 [亦]子SX
 luan    C2D0 滦 氵栾
 luan    C2D1 卵 ([卯左]丶cd)(卩丶cd)
-luan    C2D2 乱 舌[儿右]
+luan    C2D2 乱 舌乚
 luan    D9F5 脔 [亦]肉SX
 luan    E6AE 娈 [亦]女SX
 luan    E8EF 栾 [亦]木SX
@@ -3862,7 +3854,7 @@ luo     C2DD 螺 虫累
 luo     C2DE 罗 罒夕SX
 luo     C2DF 逻 辶罗ZX
 luo     C2E0 锣 钅罗
-luo     C2E1 箩 [竹]罗SX
+luo     C2E1 箩 ⺮罗SX
 luo     C2E2 骡 马累
 luo     C2E3 裸 衤果
 luo     C2E4 落 艹洛SX
@@ -3883,7 +3875,7 @@ luo     EBE1 脶 月呙
 luo     EDD1 硌 石各
 luo     EFDD 镙 钅累
 luo     F1A7 瘰 疒累ZS
-luo     F5C8 跞 [足]乐
+luo     F5C8 跞 ⻊乐
 luo     F6C3 雒 各隹
 m       DFBC 呒 口无
 ma      C2E8 妈 女马
@@ -3903,7 +3895,7 @@ ma      E1EF 犸 犭马
 ma      E8BF 杩 木马
 ma      F3A1 蟆 虫莫
 mai     C2F1 埋 土里
-mai     C2F2 买 [横折]头SX
+mai     C2F2 买 乛头SX
 mai     C2F3 麦 [青头]夂SX
 mai     C2F4 卖 十买SX
 mai     C2F5 迈 辶万ZX
@@ -4088,7 +4080,7 @@ mie     C3F0 灭 一火SX
 mie     D8BF 乜
 mie     DFE3 咩 口羊
 mie     F3BA 蠛 虫蔑
-mie     F3FA 篾 [竹]罒戍SX
+mie     F3FA 篾 ⺮罒戍SX
 min     C3F1 民
 min     C3F2 抿 扌民
 min     C3F3 皿
@@ -4309,7 +4301,7 @@ nie     DEC1 蘖 薛木sx
 nie     E0BF 嗫 口聂
 nie     F2A8 颞 聂页
 nie     F4AB 臬 自木sx
-nie     F5E6 蹑 [足]聂
+nie     F5E6 蹑 ⻊聂
 nin     C4FA 您 你心sx
 ning    C4FB 柠 木宁
 ning    C4FC 狞 犭宁
@@ -4348,8 +4340,8 @@ nu:     EDA4 恧 而心sx
 nu:     EECF 钕 钅女
 nu:     F4AC 衄 血丑
 nuan    C5AF 暖 日爰
-nue:    C5B0 虐 [虎][反彐1]zs
-nue:    C5B1 疟 疒[反彐1]zs
+nue:    C5B0 虐 虍[疟底]zs
+nue:    C5B1 疟 疒[疟底]zs
 nuo     C4C8 娜 女那
 nuo     C5B2 挪 扌那
 nuo     C5B3 懦 忄需
@@ -4377,7 +4369,7 @@ ou      F1EE 耦 耒禺
 pa      B0C7 扒
 pa      B0D2 耙 耒巴
 pa      C5BE 啪 口拍
-pa      C5BF 趴 [足]八
+pa      C5BF 趴 ⻊八
 pa      C5C0 爬 爪巴zx
 pa      C5C1 帕 巾白
 pa      C5C2 怕 忄白
@@ -4386,7 +4378,7 @@ pa      C5C9 派
 pa      DDE2 葩 艹(白巴)sx
 pa      E8CB 杷 木巴
 pa      EED9 钯 钅巴
-pa      F3E1 筢 [竹]把sx
+pa      F3E1 筢 ⺮把sx
 pai     C5C4 拍 扌白
 pai     C5C5 排 扌非
 pai     C5C6 牌 片卑
@@ -4413,7 +4405,7 @@ pan     E3FA 泮 氵半
 pan     F1C8 袢 衤半
 pan     F1E1 襻 衤攀
 pan     F3B4 蟠 虫番
-pan     F5E7 蹒 [足][满右]
+pan     F5E7 蹒 ⻊[满右]
 pang    B0F2 膀 月旁
 pang    B0F5 磅 石旁
 pang    C5D2 乓 丘丶sx
@@ -4430,7 +4422,7 @@ pao     C5D8 咆 口包
 pao     C5D9 刨 包刂
 pao     C5DA 炮 火包
 pao     C5DB 袍 衤包
-pao     C5DC 跑 [足]包
+pao     C5DC 跑 ⻊包
 pao     C5DD 泡 氵包
 pao     DECB 匏 夸包
 pao     E1F3 狍 犭包
@@ -4463,7 +4455,7 @@ peng    C5ED 彭 [鼓左]彡
 peng    C5EE 蓬 艹逢sx
 peng    C5EF 棚 木朋
 peng    C5F0 硼 石朋
-peng    C5F1 篷 [竹]逢
+peng    C5F1 篷 ⺮逢
 peng    C5F2 膨 月彭
 peng    C5F3 朋 月月
 peng    C5F4 鹏 朋鸟
@@ -4523,7 +4515,7 @@ pi      F2E7 蜱 虫卑
 pi      F5F9 貔 豸(囟比sx)
 pian    B1E2 扁 户[扁底]ZS
 pian    B1E3 便 亻更
-pian    C6AA 篇 [竹]扁sx
+pian    C6AA 篇 ⺮扁sx
 pian    C6AB 偏 亻扁
 pian    C6AC 片
 pian    C6AD 骗 马扁
@@ -4533,7 +4525,7 @@ pian    E7C2 缏 纟便
 pian    EAFA 犏 牛扁
 pian    EBDD 胼 月并
 pian    F4E6 翩 扁羽
-pian    F5E4 蹁 [足]扁
+pian    F5E4 蹁 ⻊扁
 piao    C6AE 飘 票风
 piao    C6AF 漂 氵票
 piao    C6B0 瓢 票瓜
@@ -4596,7 +4588,7 @@ po      EAB7 攴 [上头]又sx
 po      EEC7 钋 钅卜
 po      EEDE 钷 钅叵
 po      F0AB 皤 白番
-po      F3CD 笸 [竹]叵sx
+po      F3CD 笸 ⺮叵sx
 pou     C6CA 剖 [倍右]刂
 pou     D9F6 裒 亠臼[衣底]sx
 pou     DEE5 掊 扌[倍右]
@@ -4626,7 +4618,7 @@ pu      E8B1 璞 王[璞右]
 pu      EBAB 氆 毛普zx
 pu      EFE4 镤 钅[璞右]
 pu      EFE8 镨 钅普
-pu      F5EB 蹼 [足][璞右]
+pu      F5EB 蹼 ⻊[璞右]
 qi      BBFC 稽 禾(尤旨sx)
 qi      BCA9 缉 纟[辑右]
 qi      C6DA 期 其月
@@ -4698,7 +4690,7 @@ qi      F2D3 蛴 虫齐
 qi      F2E0 蜞 虫其
 qi      F4EB 綦 其糸sx
 qi      F4EC 綮 (户攵)糸sx
-qi      F5E8 蹊 [足]奚
+qi      F5E8 蹊 ⻊奚
 qi      F7A2 鳍 鱼耆
 qi      F7E8 麒 鹿其
 qia     BFA8 卡
@@ -4714,7 +4706,7 @@ qian    C7A5 钎 钅千
 qian    C7A6 铅 钅[沿右]
 qian    C7A7 千
 qian    C7A8 迁 辶千zx
-qian    C7A9 签 [竹]佥sx
+qian    C7A9 签 ⺮佥sx
 qian    C7AA 仟 亻千
 qian    C7AB 谦 讠兼
 qian    C7AC 乾 [朝左]乞
@@ -4751,8 +4743,8 @@ qian    EAF9 犍 牛建
 qian    EBC9 肷 月欠
 qian    EDA9 愆 衍心sx
 qian    EED4 钤 钅今
-qian    F2AF 虔 [虎]文zs
-qian    F3E9 箝 [竹](扌甘)sx
+qian    F2AF 虔 虍文zs
+qian    F3E9 箝 ⺮(扌甘)sx
 qiang   C7B9 枪 木仓
 qiang   C7BA 呛 口仓
 qiang   C7BB 腔 月空
@@ -4772,7 +4764,7 @@ qiang   EFEA 镪 钅强
 qiang   F1DF 襁 衤强
 qiang   F2DE 蜣 虫羌
 qiang   F4C7 羟 羊[经右]
-qiang   F5C4 跄 [足]仓
+qiang   F5C4 跄 ⻊仓
 qiao    BFC7 壳
 qiao    C7C1 橇 木(毛(毛毛)sx)
 qiao    C7C2 锹 钅秋
@@ -4800,7 +4792,7 @@ qiao    E3BE 憔 忄焦
 qiao    E7D8 缲 纟[操右]
 qiao    E9D4 樵 木焦
 qiao    EDCD 硗 石尧
-qiao    F5CE 跷 [足]尧
+qiao    F5CE 跷 ⻊尧
 qiao    F7B3 鞒 革乔
 qie     C7D0 切 七刀
 qie     C7D1 茄 艹加sx
@@ -4813,7 +4805,7 @@ qie     E3BB 慊 忄兼
 qie     E6AA 妾 立女SX
 qie     EAFC 挈 (丰刀)手sx
 qie     EFC6 锲 钅契
-qie     F3E6 箧 [竹](匚夹zb)sx
+qie     F3E6 箧 ⺮(匚夹zb)sx
 qie     F4F2 趄 走且zx
 qin     C7D5 钦 钅欠
 qin     C7D6 侵 亻[浸右]
@@ -4859,7 +4851,7 @@ qing    E9D1 檠 敬木sx
 qing    EDE0 磬 (声殳)石sx
 qing    F2DF 蜻 虫青
 qing    F3C0 罄 (声殳)缶sx
-qing    F3E4 箐 [竹]青
+qing    F3E4 箐 ⺮青
 qing    F4EC 綮 (户攵)糸sx
 qing    F6A5 謦 (声殳)言sx
 qing    F6EB 鲭 鱼青
@@ -4870,7 +4862,7 @@ qiong   DAF6 邛 工阝
 qiong   DCE4 茕 艹冖卂sx
 qiong   F1B7 穹 穴弓sx
 qiong   F2CB 蛩 巩虫sx
-qiong   F3CC 筇 [竹]邛sx
+qiong   F3CC 筇 ⺮邛sx
 qiong   F5BC 跫 巩足sx
 qiong   F6C6 銎 巩金sx
 qiu     B3F0 仇 亻九
@@ -4891,7 +4883,7 @@ qiu     E5CF 逑 辶求zx
 qiu     E5D9 遒 辶酋zx
 qiu     E9B1 楸 木秋
 qiu     EAE4 赇 贝求
-qiu     F2B0 虬 虫[儿右]
+qiu     F2B0 虬 虫乚
 qiu     F2C7 蚯 虫丘
 qiu     F2F8 蝤 虫酋
 qiu     F4C3 裘 求衣sx
@@ -4920,7 +4912,7 @@ qu      DEBE 蘧 艹遽sx
 qu      E1AB 岖 山区
 qu      E1E9 衢 彳瞿亍
 qu      E3D6 阒 门(目犬sx)sb
-qu      E8B3 璩 王([虎]豕zs)
+qu      E8B3 璩 王(虍豕zs)
 qu      EAEF 觑 虚见
 qu      EBAC 氍 瞿毛
 qu      EBD4 朐 月句
@@ -4952,7 +4944,7 @@ quan    E9FA 辁 车全
 quan    EEB0 畎 田犬
 quan    EEFD 铨 钅全
 quan    F2E9 蜷 虫卷
-quan    F3DC 筌 [竹]全sx
+quan    F3DC 筌 ⺮全sx
 quan    F7DC 鬈 髟卷sx
 que     C8B1 缺 缶[决右]
 que     C8B2 炔 火[决右]
@@ -5032,7 +5024,7 @@ rou     C8E0 揉 扌柔
 rou     C8E1 柔 矛木sx
 rou     C8E2 肉 内人sb
 rou     F4DB 糅 米柔
-rou     F5E5 蹂 [足]柔
+rou     F5E5 蹂 ⻊柔
 rou     F7B7 鞣 革柔
 ru      C8E3 茹 艹如
 ru      C8E4 蠕 虫需
@@ -5040,7 +5032,7 @@ ru      C8E5 儒 亻需
 ru      C8E6 孺 子需
 ru      C8E7 如 女口
 ru      C8E8 辱 辰寸sx
-ru      C8E9 乳 孚[儿右]
+ru      C8E9 乳 孚乚
 ru      C8EA 汝 氵女
 ru      C8EB 入
 ru      C8EC 褥 衤辱
@@ -5070,7 +5062,7 @@ run     C8F3 润 氵闰
 ruo     C8F4 若 艹右sx
 ruo     C8F5 弱 (弓冫ys)(弓冫ys)
 ruo     D9BC 偌 亻若
-ruo     F3E8 箬 [竹]若sx
+ruo     F3E8 箬 ⺮若sx
 sa      C8F6 撒 扌散
 sa      C8F7 洒 氵西
 sa      C8F8 萨 艹(阝产)sx
@@ -5139,7 +5131,7 @@ sha     F4C4 裟 沙衣sx
 sha     F6AE 霎 雨妾sx
 sha     F6E8 鲨 沙鱼sx
 shai    C9AB 色
-shai    C9B8 筛 [竹]师sx
+shai    C9B8 筛 ⺮师sx
 shai    C9B9 晒 日西
 shai    F5A7 酾 酉丽
 shan    B2F4 掺 扌参
@@ -5177,7 +5169,7 @@ shan    EECC 钐 钅彡
 shan    F0DE 疝 疒山zs
 shan    F3B5 蟮 虫善
 shan    F4AE 舢 舟山
-shan    F5C7 跚 [足]册
+shan    F5C7 跚 ⻊册
 shan    F7AD 鳝 鱼善
 shang   C9CA 墒 土商
 shang   C9CB 伤 亻[伤右]
@@ -5211,7 +5203,7 @@ shao    DCE6 苕 艹召sx
 shao    E4FB 潲 氵稍
 shao    E8BC 杓 木勺
 shao    F2D9 蛸 虫肖
-shao    F3E2 筲 [竹]肖sx
+shao    F3E2 筲 ⺮肖sx
 shao    F4B9 艄 舟肖
 she     C9DD 奢 大者sx
 she     C9DE 赊 贝佘
@@ -5280,7 +5272,7 @@ sheng   E1D3 嵊 山乘
 sheng   E4C5 渑 氵黾
 sheng   EAC9 晟 日成sx
 sheng   EDF2 眚 生目sx
-sheng   F3CF 笙 [竹]生sx
+sheng   F3CF 笙 ⺮生sx
 shi     B3D7 匙 是匕zx
 shi     CAA6 师 [帅左][币]
 shi     CAA7 失 丿夫
@@ -5344,7 +5336,7 @@ shi     ECC2 炻 火石
 shi     EEE6 铈 钅市
 shi     F3A7 螫 赦虫sx
 shi     F3C2 舐 舌氏
-shi     F3DF 筮 [竹]巫sx
+shi     F3DF 筮 ⺮巫sx
 shi     F5A7 酾 酉丽
 shi     F5B9 豕
 shi     F6E5 鲥 鱼时
@@ -5372,7 +5364,7 @@ shu     CAE4 输 车俞
 shu     CAE5 叔 [叔左]又
 shu     CAE6 舒 舍予
 shu     CAE7 淑 氵叔
-shu     CAE8 疏 ([横折]止sx)[流右]
+shu     CAE8 疏 (乛止sx)[流右]
 shu     CAE9 书 [书干]丶zx
 shu     CAEA 赎 贝卖
 shu     CAEB 孰 享丸
@@ -5479,7 +5471,7 @@ si      EFC8 锶 钅思
 si      F0B8 鸶 丝鸟sx
 si      F1EA 耜 耒[官底]
 si      F2CF 蛳 虫师
-si      F3D3 笥 [竹]司sx
+si      F3D3 笥 ⺮司sx
 song    CBC9 松 木公
 song    CBCA 耸 从耳sx
 song    CBCB 怂 从心sx
@@ -5529,12 +5521,12 @@ su      DDF8 蔌 艹(束欠)sx
 su      E0BC 嗉 口素
 su      E3BA 愫 忄素
 su      E4B3 涑 氵束
-su      F3F9 簌 [竹](束欠)sx
+su      F3F9 簌 ⺮(束欠)sx
 su      F6A2 觫 角束
 su      F6D5 稣 鱼禾
 suan    CBE1 酸 酉[俊右]
 suan    CBE2 蒜 艹(示示)sx
-suan    CBE3 算 [竹]目廾sx
+suan    CBE3 算 ⺮目廾sx
 suan    E2A1 狻 犭[俊右]
 sui     C4F2 尿 尸水zs
 sui     CBE4 虽 口虫SX
@@ -5557,7 +5549,7 @@ sui     EDF5 眭 目圭
 sui     EEA1 睢 目隹
 sun     CBEF 孙 子小
 sun     CBF0 损 扌员
-sun     CBF1 笋 [竹]尹sx
+sun     CBF1 笋 ⺮尹sx
 sun     DDA5 荪 艹孙sx
 sun     E1F8 狲 犭孙
 sun     E2B8 飧 夕食
@@ -5587,8 +5579,8 @@ ta      CBFD 她 女也
 ta      CBFE 塔 土[搭右]
 ta      CCA1 獭 犭赖
 ta      CCA2 挞 扌达
-ta      CCA3 蹋 [足][塌右]
-ta      CCA4 踏 [足]沓
+ta      CCA3 蹋 ⻊[塌右]
+ta      CCA4 踏 ⻊沓
 ta      CDD8 拓 扌石
 ta      E0AA 嗒 口[搭右]
 ta      E3CB 闼 门达sb
@@ -5598,7 +5590,7 @@ ta      E5DD 遢 辶[塌右]zx
 ta      E9BD 榻 木[塌右]
 ta      EDB3 沓 水日sx
 ta      EEE8 铊 钅它
-ta      F5C1 趿 [足]及
+ta      F5C1 趿 ⻊及
 ta      F7A3 鳎 鱼[塌右]
 tai     CCA5 胎 月台
 tai     CCA6 苔 艹台sx
@@ -5615,7 +5607,7 @@ tai     E6E6 骀 马台
 tai     EBC4 肽 月太
 tai     ECC6 炱 台火sx
 tai     EED1 钛 钅太
-tai     F5CC 跆 [足]台
+tai     F5CC 跆 ⻊台
 tai     F6D8 鲐 鱼台
 tan     B5AF 弹 弓单
 tan     CCAE 坍 土丹
@@ -5701,11 +5693,11 @@ teng    CCDC 誊 [拳头]言sx
 teng    EBF8 滕 月([拳头][水1]sx)
 ti      CCDD 梯 木弟
 ti      CCDE 剔 易刂
-ti      CCDF 踢 [足]易
+ti      CCDF 踢 ⻊易
 ti      CCE0 锑 钅弟
 ti      CCE1 提 扌是
 ti      CCE2 题 是页zx
-ti      CCE3 蹄 [足]帝
+ti      CCE3 蹄 ⻊帝
 ti      CCE4 啼 口帝
 ti      CCE5 体 亻本
 ti      CCE6 替 (夫夫)日sx
@@ -5743,13 +5735,13 @@ tiao    CCF4 挑 扌兆
 tiao    CCF5 条 夂[木勾]sx
 tiao    CCF6 迢 辶召zx
 tiao    CCF7 眺 目兆
-tiao    CCF8 跳 [足]兆
+tiao    CCF8 跳 ⻊兆
 tiao    D9AC 佻 亻兆
 tiao    DCE6 苕 艹召sx
 tiao    ECF6 祧 礻兆
 tiao    F1BB 窕 穴兆sx
 tiao    F2E8 蜩 虫周
-tiao    F3D4 笤 [竹]召sx
+tiao    F3D4 笤 ⺮召sx
 tiao    F4D0 粜 出米sx
 tiao    F6B6 龆 齿召
 tiao    F6E6 鲦 鱼条
@@ -5788,7 +5780,7 @@ tong    CDAE 彤 丹彡
 tong    CDAF 童 立里SX
 tong    CDB0 桶 木甬
 tong    CDB1 捅 扌甬
-tong    CDB2 筒 [竹]同sx
+tong    CDB2 筒 ⺮同sx
 tong    CDB3 统 纟充
 tong    CDB4 痛 疒甬zs
 tong    D9A1 佟 亻冬
@@ -5826,7 +5818,7 @@ tu      F5A9 酴 酉余
 tuan    CDC4 湍 氵[瑞右]
 tuan    CDC5 团 囗才qb
 tuan    DED2 抟 扌专
-tuan    E5E8 彖 [彖头][豕]sx
+tuan    E5E8 彖 彑[豕]sx
 tuan    EEB6 疃 田童
 tui     CDC6 推 扌隹
 tui     CDC7 颓 秃页
@@ -5867,9 +5859,9 @@ tuo     E8DE 柁 木它
 tuo     E9D2 橐 [囊头]石木sx
 tuo     EDC8 砣 石它
 tuo     EEE8 铊 钅它
-tuo     F3EA 箨 [竹]择
+tuo     F3EA 箨 ⺮择
 tuo     F5A2 酡 酉它
-tuo     F5C9 跎 [足]它
+tuo     F5C9 跎 ⻊它
 tuo     F6BE 鼍 (口口)田一黾sx
 wa      CDDA 挖 扌(穴乙sx)
 wa      CDDB 哇 口圭
@@ -6158,7 +6150,7 @@ xi      F4CB 羲 [羊头]((禾[巧右]sx)戈)sx
 xi      F4D1 粞 米西
 xi      F4E2 翕 合羽sx
 xi      F5B5 醯 酉([流右]皿sx)
-xi      F5E8 蹊 [足]奚
+xi      F5E8 蹊 ⻊奚
 xi      F7FB 鼷 鼠奚
 xia     BBA3 唬 口虎
 xia     CFB9 瞎 目害
@@ -6180,7 +6172,7 @@ xia     E5DA 遐 辶[假右]zx
 xia     E8A6 瑕 王[假右]
 xia     E8D4 柙 木甲
 xia     EDCC 硖 石夹
-xia     F3C1 罅 缶([虎]乎zs)
+xia     F3C1 罅 缶(虍乎zs)
 xia     F7EF 黠 黑吉
 xian    BCFB 见
 xian    CFB3 铣 钅先
@@ -6225,18 +6217,18 @@ xian    ECEC 祆 礻夭
 xian    F0C2 鹇 闲鸟
 xian    F0EF 痫 疒闲zs
 xian    F2B9 蚬 虫见
-xian    F3DA 筅 [竹]先sx
+xian    F3DA 筅 ⺮先sx
 xian    F4CC 籼 米山
 xian    F5A3 酰 酉先
-xian    F5D0 跣 [足]先
-xian    F5D1 跹 [足]迁
+xian    F5D0 跣 ⻊先
+xian    F5D1 跹 ⻊迁
 xian    F6B1 霰 雨散sx
 xiang   BDB5 降 阝[降右]
 xiang   CFE0 相 木目
 xiang   CFE1 厢 厂相zs
 xiang   CFE2 镶 钅襄
 xiang   CFE3 香 禾日sx
-xiang   CFE4 箱 [竹]相sx
+xiang   CFE4 箱 ⺮相sx
 xiang   CFE5 襄 亠[襄底]sx
 xiang   CFE6 湘 氵相
 xiang   CFE7 乡
@@ -6277,7 +6269,7 @@ xiao    D0A2 孝 [老头]子SX
 xiao    D0A3 校 木交
 xiao    D0A4 肖 [尚头]月sx
 xiao    D0A5 啸 口肃
-xiao    D0A6 笑 [竹]夭sx
+xiao    D0A6 笑 ⺮夭sx
 xiao    D0A7 效 交攵
 xiao    DFD8 哓 口尧
 xiao    E1C5 崤 山肴
@@ -6288,8 +6280,8 @@ xiao    E7AF 绡 纟肖
 xiao    E8C9 枭 [鸟]木ys
 xiao    E8D5 枵 木号
 xiao    F2D9 蛸 虫肖
-xiao    F3E3 筱 [竹]攸sx
-xiao    F3EF 箫 [竹]肃sx
+xiao    F3E3 筱 ⺮攸sx
+xiao    F3EF 箫 ⺮肃sx
 xiao    F7CC 魈 鬼肖zx
 xie     BDE2 解 角(刀牛sx)
 xie     C6FC 泣 氵立
@@ -6332,7 +6324,7 @@ xie     E7D3 缬 纟颉
 xie     E9BF 榭 木射
 xie     E9C7 榍 木屑
 xie     F2A1 颉 吉页
-xie     F5F3 躞 [足]燮
+xie     F5F3 躞 ⻊燮
 xin     D0BD 薪 艹新sx
 xin     D0BE 芯 艹心sx
 xin     D0BF 锌 钅辛
@@ -6403,7 +6395,7 @@ xiu     F7DB 髹 髟休sx
 xu      D0E6 墟 土虚
 xu      D0E7 戌 戊一sb
 xu      D0E8 需 雨而sx
-xu      D0E9 虚 [虎]业zs
+xu      D0E9 虚 虍业zs
 xu      D0EA 嘘 口虚
 xu      D0EB 须 彡页
 xu      D0EC 徐 彳余
@@ -6469,7 +6461,7 @@ xue     D1A8 穴 宀八sx
 xue     D1A9 雪 雨彐sx
 xue     D1AA 血 丿皿sx
 xue     DACA 谑 讠虐
-xue     E0E5 噱 口([虎]豕zs)
+xue     E0E5 噱 口(虍豕zs)
 xue     EDB4 泶 [觉头]水sx
 xue     F5BD 踅 折足sx
 xue     F7A8 鳕 鱼雪
@@ -6521,7 +6513,7 @@ ya      D1C5 雅 牙隹
 ya      D1C6 哑 口亚
 ya      D1C7 亚 一业sx
 ya      D1C8 讶 讠牙
-ya      D4FE 轧 车[儿右]
+ya      D4FE 轧 车乚
 ya      D8F3 伢 亻牙
 ya      DBEB 垭 土亚
 ya      DEEB 揠 扌[堰右]
@@ -6597,7 +6589,7 @@ yan     EBD9 胭 月因
 yan     EBE7 腌 月奄
 yan     ECCD 焱 火(火火)sx
 yan     EEBB 罨 罒奄sx
-yan     F3DB 筵 [竹]延sx
+yan     F3DB 筵 ⺮延sx
 yan     F5A6 酽 酉严
 yan     F7CA 魇 厌鬼zs
 yan     F7D0 餍 厌食zs
@@ -6629,7 +6621,7 @@ yang    F2D5 蛘 虫羊
 yang    F7B1 鞅 革央
 yao     BDC4 侥 亻尧
 yao     C3B4 么
-yao     C5B1 疟 疒[反彐1]zs
+yao     C5B1 疟 疒[疟底]zs
 yao     CCD5 陶 阝[陶右]
 yao     D1FB 邀 辶敫zx
 yao     D1FC 腰 月要
@@ -6710,7 +6702,7 @@ yi      D2C9 疑 [疑左]([倒厶]疋sx)
 yi      D2CA 沂 氵斤
 yi      D2CB 宜 宀且sx
 yi      D2CC 姨 女夷
-yi      D2CD 彝 [彖头](米糸)廾sx
+yi      D2CD 彝 彑(米糸)廾sx
 yi      D2CE 椅 木奇
 yi      D2CF 蚁 虫义
 yi      D2D0 倚 亻奇
@@ -6812,7 +6804,7 @@ yin     D2FC 尹
 yin     D2FD 引 弓丨
 yin     D2FE 隐 阝急
 yin     D3A1 印 [印左]卩
-yin     D8B7 胤 丿(幺月sx)[儿右]
+yin     D8B7 胤 丿(幺月sx)乚
 yin     DBB4 鄞 堇阝
 yin     DBF3 垠 土艮
 yin     DCA7 堙 土[湮右]
@@ -6878,7 +6870,7 @@ yong    D3B7 臃 月雍
 yong    D3B8 痈 疒用ZS
 yong    D3B9 庸 广(肀用SX)zs
 yong    D3BA 雍 亠(乡隹)sx
-yong    D3BB 踊 [足]甬
+yong    D3BB 踊 ⻊甬
 yong    D3BC 蛹 虫甬
 yong    D3BD 咏 口永
 yong    D3BE 泳 氵永
@@ -6947,7 +6939,7 @@ yu      D3D9 淤 氵於
 yu      D3DA 于
 yu      D3DB 盂 于皿sx
 yu      D3DC 榆 木俞
-yu      D3DD 虞 [虎]吴zs
+yu      D3DD 虞 虍吴zs
 yu      D3DE 愚 禺心sx
 yu      D3DF 舆 ([段左]车彐)一[八]sx
 yu      D3E0 余 人[余底]sx
@@ -7028,7 +7020,7 @@ yu      F1BE 窬 穴俞sx
 yu      F1C1 窳 穴(瓜瓜)sx
 yu      F2E2 蜮 虫或
 yu      F2F5 蝓 虫俞
-yu      F3C4 竽 [竹]于sx
+yu      F3C4 竽 ⺮于sx
 yu      F4A7 臾 臼人cd
 yu      F4A8 舁 臼廾sx
 yu      F6A7 雩 雨亏sx
@@ -7066,14 +7058,14 @@ yuan    EBBC 爰 爫[爰底]sx
 yuan    EDF3 眢 夗目sx
 yuan    F0B0 鸢 弋鸟sx
 yuan    F3A2 螈 虫原
-yuan    F3EE 箢 [竹]宛sx
+yuan    F3EE 箢 ⺮宛sx
 yuan    F6BD 鼋 元黾sx
 yue     C0D6 乐
 yue     CBB5 说 讠兑
 yue     D4BB 曰 日
 yue     D4BC 约 纟勺
 yue     D4BD 越 走戉
-yue     D4BE 跃 [足]夭
+yue     D4BE 跃 ⻊夭
 yue     D4BF 钥 钅月
 yue     D4C0 岳 丘山sx
 yue     D4C1 粤 ([白框]米sb)[巧右]sx
@@ -7111,12 +7103,12 @@ yun     E9E6 殒 歹员
 yun     EAC0 昀 日匀
 yun     EBB5 氲 气[温右]ys
 yun     ECD9 熨 尉火sx
-yun     F3DE 筠 [竹]均sx
+yun     F3DE 筠 ⺮均sx
 za      D4D1 匝 匚巾ZB
 za      D4D2 砸 石匝
 za      D4D3 杂 九[木勾]sx
 za      D4DB 咱 口自
-za      D4FA 扎 扌[儿右]
+za      D4FA 扎 扌乚
 za      D5A6 咋 口乍
 za      DED9 拶 扌(巛夕sx)
 za      DFC6 咂 口匝
@@ -7137,7 +7129,7 @@ zan     D4DE 赞 (先先)贝SX
 zan     DED9 拶 扌(巛夕sx)
 zan     E8B6 瓒 王赞
 zan     EAC3 昝 处日sx
-zan     F4A2 簪 [竹][僭右]sx
+zan     F4A2 簪 ⺮[僭右]sx
 zan     F4D8 糌 米昝
 zan     F4F5 趱 走赞zx
 zan     F6C9 錾 斩金sx
@@ -7156,7 +7148,7 @@ zao     D4E6 枣 朿[丶2]sx
 zao     D4E7 早 日十SX
 zao     D4E8 澡 氵[操右]
 zao     D4E9 蚤 叉虫sx
-zao     D4EA 躁 [足][操右]
+zao     D4EA 躁 ⻊[操右]
 zao     D4EB 噪 口[操右]
 zao     D4EC 造 辶告ZX
 zao     D4ED 皂 白七sx
@@ -7174,8 +7166,8 @@ ze      DFF5 啧 口责
 ze      E0FD 帻 巾责
 ze      E5C5 迮 辶乍
 ze      EABE 昃 日仄sx
-ze      F3D0 笮 [竹]乍sx
-ze      F3E5 箦 [竹]责sx
+ze      F3D0 笮 ⺮乍sx
+ze      F3E5 箦 ⺮责sx
 ze      F4B7 舴 舟乍
 zei     D4F4 贼 贝戎
 zen     D4F5 怎 乍心sx
@@ -7192,11 +7184,11 @@ zeng    EFAD 锃 钅呈
 zha     B2E7 茬 艹在sx
 zha     B2E9 查 木旦sx
 zha     C0AF 蜡 虫昔
-zha     D4FA 扎 扌[儿右]
+zha     D4FA 扎 扌乚
 zha     D4FB 喳 口查
 zha     D4FC 渣 氵查
-zha     D4FD 札 木[儿右]
-zha     D4FE 轧 车[儿右]
+zha     D4FD 札 木乚
+zha     D4FE 轧 车乚
 zha     D5A1 铡 钅则
 zha     D5A2 闸 门甲sb
 zha     D5A3 眨 目乏
@@ -7289,7 +7281,7 @@ zhao    DAAF 诏 讠召
 zhao    DFFA 啁 口周
 zhao    E8FE 棹 木卓
 zhao    EEC8 钊 钅刂
-zhao    F3C9 笊 [竹]爪sx
+zhao    F3C9 笊 ⺮爪sx
 zhe     D5DA 遮 辶庶zx
 zhe     D5DB 折 扌斤
 zhe     D5DC 哲 折口sx
@@ -7304,7 +7296,7 @@ zhe     D7C5 着
 zhe     DAD8 谪 讠[滴右]
 zhe     DFA1 摺 扌(羽白sx)
 zhe     E8CF 柘 木石
-zhe     E9FC 辄 车耳[儿右]
+zhe     E9FC 辄 车耳乚
 zhe     EDDD 磔 石桀
 zhe     F0D1 鹧 庶鸟
 zhe     F1DE 褶 衤(羽白sx)
@@ -7345,7 +7337,7 @@ zhen    ECF5 祯 礻贞
 zhen    EEB3 畛 田[珍右]
 zhen    F0A1 稹 禾真
 zhen    F0B2 鸩 [沈右]鸟
-zhen    F3F0 箴 [竹]咸sx
+zhen    F3F0 箴 ⺮咸sx
 zheng   B6A1 丁
 zheng   D5F4 蒸 艹丞灬sx
 zheng   D5F5 挣 扌争
@@ -7366,7 +7358,7 @@ zheng   E1BF 峥 山争
 zheng   E1E7 徵 彳(山一王)攵
 zheng   EEDB 钲 钅正
 zheng   EFA3 铮 钅争
-zheng   F3DD 筝 [竹]争sx
+zheng   F3DD 筝 ⺮争sx
 zhi     CAB6 识 讠只
 zhi     CACF 氏
 zhi     D6A5 芝 艹之sx
@@ -7390,7 +7382,7 @@ zhi     D6B6 侄 亻至
 zhi     D6B7 址 土止
 zhi     D6B8 指 扌旨
 zhi     D6B9 止
-zhi     D6BA 趾 [足]止
+zhi     D6BA 趾 ⻊止
 zhi     D6BB 只 口[八]sx
 zhi     D6BC 旨 匕日SX
 zhi     D6BD 纸 纟氏
@@ -7421,7 +7413,7 @@ zhi     DEFD 摭 扌庶
 zhi     E0F9 帙 巾失
 zhi     E1E7 徵
 zhi     E2E5 忮 忄支
-zhi     E5E9 彘 [彖头](匕矢匕)sx
+zhi     E5E9 彘 彑(匕矢匕)sx
 zhi     E5EB 咫 尺只zx
 zhi     E6EF 骘 陟马sx
 zhi     E8CE 栉 木节
@@ -7442,9 +7434,9 @@ zhi     F0EB 痣 疒志zs
 zhi     F2CE 蛭 虫至
 zhi     F4EA 絷 执糸sx
 zhi     F5A5 酯 酉旨
-zhi     F5C5 跖 [足]石
-zhi     F5D9 踬 [足]质
-zhi     F5DC 踯 [足]郑
+zhi     F5C5 跖 ⻊石
+zhi     F5D9 踬 ⻊质
+zhi     F5DC 踯 ⻊郑
 zhi     F5F4 豸
 zhi     F6A3 觯 角单
 zhong   D6D0 中
@@ -7463,7 +7455,7 @@ zhong   E2EC 忪 忄公
 zhong   EFF1 锺 钅重
 zhong   F3AE 螽 冬(虫虫)sx
 zhong   F4B1 舯 舟中
-zhong   F5E0 踵 [足]重
+zhong   F5E0 踵 ⻊重
 zhou    D6DB 舟
 zhou    D6DC 周 冂吉SB
 zhou    D6DD 州 [帅左][帅左][帅左]
@@ -7485,7 +7477,7 @@ zhou    E6FB 纣 纟寸
 zhou    E7A7 绉 纟刍
 zhou    EBD0 胄 由月sx
 zhou    EDD8 碡 石毒
-zhou    F4A6 籀 [竹](扌留)sx
+zhou    F4A6 籀 ⺮(扌留)sx
 zhou    F4FC 酎 酉寸
 zhu     CAF4 属 尸禹zs
 zhu     CAF5 术
@@ -7510,7 +7502,7 @@ zhu     D6FA 助 且力
 zhu     D6FB 蛀 虫主
 zhu     D6FC 贮 贝(宀一sx)
 zhu     D6FD 铸 钅寿
-zhu     D6FE 筑 [竹]巩sx
+zhu     D6FE 筑 ⺮巩sx
 zhu     D7A1 住 亻主
 zhu     D7A2 注 氵主
 zhu     D7A3 祝 礻兄
@@ -7530,11 +7522,11 @@ zhu     ECC4 炷 火主
 zhu     EEF9 铢 钅朱
 zhu     F0E6 疰 疒主zs
 zhu     F0F1 瘃 疒[豕丶]zs
-zhu     F3C3 竺 [竹]二sx
-zhu     F3E7 箸 [竹]者sx
+zhu     F3C3 竺 ⺮二sx
+zhu     F3E7 箸 ⺮者sx
 zhu     F4B6 舳 舟由
 zhu     F4E3 翥 者羽sx
-zhu     F5EE 躅 [足]蜀
+zhu     F5EE 躅 ⻊蜀
 zhu     F7E6 麈 鹿主zs
 zhua    D7A5 抓 扌爪
 zhua    D7A6 爪
@@ -7547,7 +7539,7 @@ zhuan   D7A9 砖 石专
 zhuan   D7AA 转 车专
 zhuan   D7AB 撰 扌巽
 zhuan   D7AC 赚 贝兼
-zhuan   D7AD 篆 [竹]彖sx
+zhuan   D7AD 篆 ⺮彖sx
 zhuan   DFF9 啭 口转
 zhuan   E2CD 馔 饣巽
 zhuan   F2A7 颛 [瑞右]页
@@ -7631,7 +7623,7 @@ zi      EDF6 眦 目此
 zi      EFC5 锱 钅甾
 zi      EFF6 秭 禾[姊右]
 zi      F1E8 耔 耒子
-zi      F3CA 笫 [竹][姊右]sx
+zi      F3CA 笫 ⺮[姊右]sx
 zi      F4D2 粢 次米sx
 zi      F4F4 趑 走次zx
 zi      F5FE 觜 此角sx
@@ -7641,7 +7633,7 @@ zi      F6F6 鲻 鱼甾
 zi      F7DA 髭 髟此sx
 zong    D7D7 鬃 髟宗sx
 zong    D7D8 棕 木宗
-zong    D7D9 踪 [足]宗
+zong    D7D9 踪 ⻊宗
 zong    D7DA 宗 宀示SX
 zong    D7DB 综 纟宗
 zong    D7DC 总 丷口心SX
@@ -7672,10 +7664,10 @@ zu      DDCF 菹 艹沮sx
 zu      EFDF 镞 钅族
 zuan    D7AC 赚
 zuan    D7EA 钻 钅占
-zuan    D7EB 纂 [竹]目大糸sx
+zuan    D7EB 纂 ⺮目大糸sx
 zuan    DFAC 攥 扌纂
 zuan    E7DA 缵 纟赞
-zuan    F5F2 躜 [足]赞
+zuan    F5F2 躜 ⻊赞
 zui     BED7 咀 口且
 zui     D7EC 嘴 口觜
 zui     D7ED 醉 酉卒
@@ -7703,5 +7695,5 @@ zuo     E0DC 嘬 口最
 zuo     E2F4 怍 忄乍
 zuo     EBD1 胙 月乍
 zuo     ECF1 祚 礻乍
-zuo     F3D0 笮 [竹]乍sx
+zuo     F3D0 笮 ⺮乍sx
 zuo     F5A1 酢 酉乍
