@@ -5937,7 +5937,7 @@ wei     CEA6 桅 木危
 wei     CEA7 围 囗韦qb
 wei     CEA8 唯 口隹
 wei     CEA9 惟 忄隹
-wei     CEAA 为 丶力丶cd
+wei     CEAA 为 [丶2]力cd
 wei     CEAB 潍 氵维
 wei     CEAC 维 纟隹
 wei     CEAD 苇 艹韦sx
