@@ -63,7 +63,8 @@
         <td>;<br>对称分:<br>忄小水[水边]</td>
     </tr>
     <tr valign='top'>
-        <th colspan='4'>↓交叉↓</th>
+        <th colspan='3'>↓交叉↓</th>
+        <th colspan='1'>↓连接↓</th>
         <th colspan='3'>↓包围↓</th>
     </tr>
     <tr valign='top'> 
