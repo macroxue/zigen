@@ -291,7 +291,13 @@ for length in range(1, args.simple_code_length+1):
             continue
         simple_code = code[0:length]
         if length > 1 and code_book.has_key(simple_code):
-            continue
+            available = True
+            for char in code_book[simple_code]:
+                if char not in char_with_simple_code:
+                    available = False
+                    break
+            if not available:
+                continue
         if simple_code_candidates.has_key(simple_code):
             simple_code_candidates[simple_code] += characters
         else:
