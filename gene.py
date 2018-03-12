@@ -267,6 +267,8 @@ code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
 # Generate the code book.
 code_book = {}
 for c, roots in flat_dict.items():
+    if len(roots) > 1 and not pinyin.has_key(c):
+        continue
     code = ''
     for root in roots:
         code += code_keys[root_group[root]]
