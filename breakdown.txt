@@ -132,8 +132,8 @@ CC 串叉   如：秉乘
 1          1 [勿1] 勹丿ys
 1          1 匆 勿丶cd
 1          1 怱 匆心sx
-1          1 [祭头] [炙头]又
-1          1 癶 又丬
+#1          1 [祭头] [炙头]又
+#1          1 癶 又丬
 # 丶
 # 亠
 #1          1 主 丶王sx
@@ -1126,7 +1126,6 @@ chi     DFB3 叱 口匕
 chi     DFEA 哧 口赤
 chi     E0B4 啻 帝口SX
 chi     E0CD 嗤 口蚩
-chi     E1DC 彳
 chi     E2C1 饬 饣[伤右]
 chi     E6CA 媸 女蚩
 chi     EBB7 敕 束攵
@@ -1216,7 +1215,6 @@ chuan   B4AD 喘 口[瑞右]
 chuan   B4AE 串
 chuan   E2B6 舛 夕[舛右]
 chuan   E5D7 遄 辶[瑞右]ZX
-chuan   E7DD 巛
 chuan   EBB0 氚 气川YS
 chuan   EECB 钏 钅川
 chuan   F4AD 舡 舟工
@@ -4077,7 +4075,6 @@ miao    EDF0 眇 目少
 miao    F0C5 鹋 苗鸟
 mie     C3EF 蔑 艹罒戍SX
 mie     C3F0 灭 一火SX
-mie     D8BF 乜
 mie     DFE3 咩 口羊
 mie     F3BA 蠛 虫蔑
 mie     F3FA 篾 ⺮罒戍SX
@@ -4295,7 +4292,6 @@ nie     C4F6 啮 口齿
 nie     C4F7 镊 钅聂
 nie     C4F8 镍 钅臬
 nie     C4F9 涅 氵[捏右]
-nie     D8BF 乜
 nie     DAED 陧 阝[捏右]
 nie     DEC1 蘖 薛木sx
 nie     E0BF 嗫 口聂
@@ -5915,7 +5911,6 @@ wang    CDFB 望 (亡月)王sx
 wang    CDFC 忘 亡心sx
 wang    CDFD 妄 亡女sx
 wang    D8E8 罔 冂([前头]亡sx)sb
-wang    DECC 尢
 wang    E3AF 惘 忄罔
 wang    E9FE 辋 车罔
 wang    F7CD 魍 鬼罔zx
@@ -7338,7 +7333,6 @@ zhen    EEB3 畛 田[珍右]
 zhen    F0A1 稹 禾真
 zhen    F0B2 鸩 [沈右]鸟
 zhen    F3F0 箴 ⺮咸sx
-zheng   B6A1 丁
 zheng   D5F4 蒸 艹丞灬sx
 zheng   D5F5 挣 扌争
 zheng   D5F6 睁 目争
@@ -7437,7 +7431,6 @@ zhi     F5A5 酯 酉旨
 zhi     F5C5 跖 ⻊石
 zhi     F5D9 踬 ⻊质
 zhi     F5DC 踯 ⻊郑
-zhi     F5F4 豸
 zhi     F6A3 觯 角单
 zhong   D6D0 中
 zhong   D6D1 盅 中皿sx
