@@ -8,9 +8,6 @@
 
 ## 编码规则
 
-所有字根及其编码都在 group.txt 文件中，下面是简单的归类,
-并不包括所有字根。
-
 最初的编码设计对表形码有多处借鉴，但后来发现字根和英文
 字母之间的象形映射对字根的安排有太多的约束，不利于方案的
 优化调整。比如十字交叉形，除了X键就没有其它合适的位置了。
@@ -27,7 +24,8 @@
 
 每个大类里又分若干个小类，如下表所示。字根键位的安排基本上
 按照食指、中指、无名指、小指，从简到繁。这样明显的规律可以减少
-记忆负担。有些需要注意的字根已用黑体显示。
+记忆负担。有些需要注意的字根已用黑体显示。所有字根及其编码
+都在 group.txt 文件中，下面是简单的归类, 并不包括所有字根。
 
 <table>
     <tr valign='top'>
@@ -35,32 +33,32 @@
         <th colspan='5'>↓封闭↓</th>
     </tr>
     <tr valign='top'>
-        <td>Q<br>多横竖:<br>山彐止正工斤片</td>
-        <td>W<br>向左钩:<br>⺈夕久刀乃弓[马]乛了豸豕</td>
-        <td>E<br>向右钩:<br>纟厶幺乚匕乙己已</td>
-        <td>R<br>T形:<br>亻[乞头]丁[石头]</td>
-        <td>T<br>K形:<br>⺮卜礻丬衤[衣底][前头]<b>彳</b></td>
-        <td>Y<br>不规则:<br>女夂攵又及彑<b>五</b></td>
-        <td>U<br>框内空:<br>口<br>凹凸</td>
-        <td>I<br>框内横:<br>日目且[官底]<b>[横日]</b></td>
-        <td>O<br>框内竖:<br>田由甲曲皿四<b>囗⻊</b></td>
-        <td>P<br>悬挂:<br>阝耳尸[眉头]卩巳</td>
+        <td><ins><b>Q</b> 横竖</ins><br>山彐止正工斤片</td>
+        <td><ins><b>W</b> 左钩</ins><br>⺈夕久刀乃弓[马]乛了豸豕</td>
+        <td><ins><b>E</b> 右钩</ins><br>纟厶幺乚匕乙己已</td>
+        <td><ins><b>R</b> 丁形</ins><br>亻[乞头]丁[石头]</td>
+        <td><ins><b>T</b> 汇聚</ins><br>⺮卜礻丬衤[衣底][前头]<b>彳</b></td>
+        <td><ins><b>Y</b> 不规</ins><br>女夂攵又及彑<b>五</b></td>
+        <td><ins><b>U</b> 内空</ins><br>口<br>凹凸</td>
+        <td><ins><b>I</b> 内横</ins><br>日目且[官底]<b>[横日]</b></td>
+        <td><ins><b>O</b> 内竖</ins><br>田由甲曲皿四<b>囗⻊</b></td>
+        <td><ins><b>P</b> 悬挂</ins><br>阝耳尸[眉头]卩巳</td>
     </tr>
     <tr valign='top'>
         <th colspan='5'>↓交叉↓</th>
         <th colspan='5'>↓离散↓</th>
     </tr>
     <tr valign='top'>
-        <td>A<br>折交叉:<br>廴子巾屮力九七乜电甩<b>弗</b></td>
-        <td>S<br>竖交叉:<br>扌丰韦肀中申車</td>
-        <td>D<br>横挡竖:<br>土士[青头]干于</td>
-        <td>F<br>横交叉:<br><b>一</b>艹廾廿卅井[共头]</td>
-        <td>G<br>斜交叉:<br>[友边]乂犭[弋][戈][戋]<b>王</b></td>
-        <td>H<br>点横:<br>讠辶之亠六主</td>
-        <td>J<br>单笔:<br>丨丿丶</td>
-        <td>K<br>两笔:<br>二刂八冫<b>疒</b></td>
-        <td>L<br>三四笔:<br>三川彡氵灬爫<b>心</b></td>
-        <td>;<br>对称分:<br>忄小水[水边]</td>
+        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩<b>弗</b></td>
+        <td><ins><b>S</b> 竖交</ins><br>扌丰韦肀中申車</td>
+        <td><ins><b>D</b> 横挡</ins><br>土士[青头]干于</td>
+        <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井[共头]</td>
+        <td><ins><b>G</b> 斜交</ins><br>[友边]乂犭[弋][戈][戋]<b>王</b></td>
+        <td><ins><b>H</b> 点横</ins><br>讠辶之亠六主</td>
+        <td><ins><b>J</b> 单笔</ins><br>丨丿丶</td>
+        <td><ins><b>K</b> 两笔</ins><br>二刂八冫<b>疒</b></td>
+        <td><ins><b>L</b> 多笔</ins><br>三川彡氵灬爫<b>心</b></td>
+        <td><ins><b>;</b> 对称</ins><br>忄小水[水边]</td>
     </tr>
     <tr valign='top'>
         <th colspan='3'>↓交叉↓</th>
@@ -68,14 +66,15 @@
         <th colspan='3'>↓包围↓</th>
     </tr>
     <tr valign='top'>
-        <td>Z<br>其它:<br>十<br>钅</td>
-        <td>X<br>木形:<br>木未耒</td>
-        <td>C<br>大形:<br>大夫[春头]央尢丈<b>虫</b></td>
-        <td>V<br>人形:<br>人火丫<br>[见底]<b>儿</b></td>
-        <td>B<br>其它:<br>厂广[皮头]虍匚凵勹</td>
-        <td>N<br>盖头:<br>冖宀<b>戊戉</b></td>
-        <td>M<br>上包围:<br>月[炙头]用门冂几[风边]</td>
-    </tr>
+        <td><ins><b>Z</b> 其它</ins><br>十钅</td>
+        <td><ins><b>X</b> 木形</ins><br>木未耒</td>
+        <td><ins><b>C</b> 大形</ins><br>大夫[春头]央尢丈<b>虫</b></td>
+        <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]<b>儿</b></td>
+        <td><ins><b>B</b> 其它</ins><br>厂广[皮头]虍匚凵勹</td>
+        <td><ins><b>N</b> 盖头</ins><br>冖宀<b>戊戉</b></td>
+        <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几[风边]</td>
+        <td><ins><b>，</b></ins></td>
+        <td><ins><b>。</b></ins></td>
 </table>
 
 采用27键编码，实在没有理由放着原位键上的分号不用，
