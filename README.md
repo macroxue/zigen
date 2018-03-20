@@ -27,38 +27,39 @@
 记忆负担。有些需要注意的字根已用黑体显示。所有字根及其编码
 都在 group.txt 文件中，下面是简单的归类, 并不包括所有字根。
 
+提示：如果有些字不能显示，请搜索、下载并安装“开心宋体”。
 <table>
     <tr valign='top'>
         <th colspan='5'>↓连接↓</th>
         <th colspan='5'>↓封闭↓</th>
     </tr>
     <tr valign='top'>
-        <td><ins><b>Q</b> 横竖</ins><br>山彐<b>⻊</b>止正工斤片</td>
-        <td><ins><b>W</b> 左钩</ins><br>⺈夕久刀乃弓[马]乛了豸豕</td>
-        <td><ins><b>E</b> 右钩</ins><br>纟厶幺饣乚匕乙己</td>
-        <td><ins><b>R</b> 丁形</ins><br>亻[乞头]丁[页头]</td>
-        <td><ins><b>T</b> 汇聚</ins><br>卜礻丬衤[衣底][前头]<b>彳</b></td>
+        <td><ins><b>Q</b> 横竖</ins><br>山彐<b>⻊</b>止正工斤片爿</td>
+        <td><ins><b>W</b> 左钩</ins><br>⺈夕久刀乃弓[马]龴乛㇆㇉了豸豕𧰨</td>
+        <td><ins><b>E</b> 右钩</ins><br>纟厶镸幺饣㇙㇗乚匕乙己</td>
+        <td><ins><b>R</b> 丁形</ins><br>亻𠂉丁丆</td>
+        <td><ins><b>T</b> 汇聚</ins><br>礻卜⺊丩衤丬䒑𧘇<b>彳</b></td>
         <td><ins><b>Y</b> 不规</ins><br>女夂攵又及彑<b>五</b></td>
         <td><ins><b>U</b> 内空</ins><br>口<br>凹凸</td>
-        <td><ins><b>I</b> 内横</ins><br>日目且[官底]<b>[横日]</b></td>
+        <td><ins><b>I</b> 内横</ins><br>日目且㠯<b>[横日]</b></td>
         <td><ins><b>O</b> 内竖</ins><br>田由甲曲皿四<b>囗</b></td>
-        <td><ins><b>P</b> 悬挂</ins><br>阝耳尸[眉头]卩已巳</td>
+        <td><ins><b>P</b> 悬挂</ins><br>阝耳尸𠃜卩㔾已巳</td>
     </tr>
     <tr valign='top'>
         <th colspan='5'>↓交叉↓</th>
         <th colspan='5'>↓离散↓</th>
     </tr>
     <tr valign='top'>
-        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩<b>弗</b></td>
-        <td><ins><b>S</b> 竖交</ins><br>扌丰韦肀中申車</td>
-        <td><ins><b>D</b> 横挡</ins><br>土士[青头]干于</td>
-        <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井[共头]</td>
-        <td><ins><b>G</b> 斜交</ins><br>[友边]乂犭[弋][戈][戋]<b>王禾</b></td>
+        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩<b>弗弔</b></td>
+        <td><ins><b>S</b> 竖交</ins><br>扌㐄丰韦肀中申車</td>
+        <td><ins><b>D</b> 横挡</ins><br>土士龶干于</td>
+        <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井龷𠀎</td>
+        <td><ins><b>G</b> 斜交</ins><br>𠂇乂犭[弋][戈][戋]<b>王禾</b></td>
         <td><ins><b>H</b> 点横</ins><br>讠辶亠六主方</td>
-        <td><ins><b>J</b> 单笔</ins><br>丨丿丶</td>
-        <td><ins><b>K</b> 两笔</ins><br>二刂八冫<b>疒</b></td>
-        <td><ins><b>L</b> 多笔</ins><br>三川彡氵灬爫<b>心</b></td>
-        <td><ins><b>;</b> 对称</ins><br>忄小水[水边]</td>
+        <td><ins><b>J</b> 单笔</ins><br>丨丿丶乀</td>
+        <td><ins><b>K</b> 两笔</ins><br>二〢刂八⺀丷冫<b>疒</b>巜</td>
+        <td><ins><b>L</b> 多笔</ins><br>三川彡乊氵⺌ ⺍巛灬爫<b>心</b></td>
+        <td><ins><b>;</b> 对称</ins><br>忄㣺小水氺[水边]</td>
     </tr>
     <tr valign='top'>
         <th colspan='3'>↓交叉↓</th>
@@ -68,11 +69,11 @@
     <tr valign='top'>
         <td><ins><b>Z</b> 其它</ins><br>十钅</td>
         <td><ins><b>X</b> 木形</ins><br>木未耒</td>
-        <td><ins><b>C</b> 大形</ins><br>大夫[春头]央尢丈<b>虫</b></td>
-        <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]<b>儿⺮</b></td>
-        <td><ins><b>B</b> 其它</ins><br>厂广[皮头]虍匚凵勹气</td>
-        <td><ins><b>N</b> 盖头</ins><br>冖宀<b>戊戉瓦石</b></td>
-        <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几[风边]</td>
+        <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫</b></td>
+        <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]儿<b>⺮癶</b></td>
+        <td><ins><b>B</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气</td>
+        <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>戊戉瓦石</b></td>
+        <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几𠘨</td>
         <td><ins><b>，</b></ins></td>
         <td><ins><b>。</b></ins></td>
 </table>

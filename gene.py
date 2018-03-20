@@ -54,7 +54,10 @@ else:
 def parse_breakdown(line, i):
     breakdown = []
     while i < len(line):
-        if ord(line[i]) >= 128:  # character
+        if ord(line[i]) >= 240:  # length-4 character
+            breakdown += [line[i:i+4]]
+            i += 4
+        elif ord(line[i]) >= 224:  # length-3 character
             breakdown += [line[i:i+3]]
             i += 3
         elif line[i] == '[': # non-character
