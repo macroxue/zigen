@@ -58,7 +58,7 @@
         <th colspan='5'>↓离散↓</th>
     </tr>
     <tr valign='top'>
-        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩<b>弗弔</b></td>
+        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩</td>
         <td><ins><b>S</b> 竖交</ins><br>扌㐄丰韦肀中申車</td>
         <td><ins><b>D</b> 横挡</ins><br>土士龶干于</td>
         <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井龷𠀎</td>
@@ -77,7 +77,7 @@
     <tr valign='top'>
         <td><ins><b>Z</b> 其它</ins><br>十钅</td>
         <td><ins><b>X</b> 木形</ins><br>木未耒</td>
-        <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫</b></td>
+        <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫[惠头]</b></td>
         <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]儿<b>⺮癶</b></td>
         <td><ins><b>B</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气</td>
         <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>戊戉瓦石</b></td>
