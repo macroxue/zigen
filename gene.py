@@ -24,7 +24,7 @@ parser.add_argument('-m', '--max_code_length',
         type=int, default=4)
 parser.add_argument('-p', '--pad_with_pin_yin',
         help='add Pin-Yin for code length below the maximum',
-        action='store_true')
+        type=int, default=1)
 parser.add_argument('-s', '--simple_code_length',
         help='generate simple codes up to this length',
         type=int, default=3)
@@ -54,10 +54,10 @@ else:
 def parse_breakdown(line, i):
     breakdown = []
     while i < len(line):
-        if ord(line[i]) >= 240:  # length-4 character
+        if ord(line[i]) >= 240:  # 4-byte character
             breakdown += [line[i:i+4]]
             i += 4
-        elif ord(line[i]) >= 224:  # length-3 character
+        elif ord(line[i]) >= 224:  # 3-byte character
             breakdown += [line[i:i+3]]
             i += 3
         elif line[i] == '[': # non-character
@@ -97,6 +97,54 @@ def traverse(breakdown):
         flat += traverse(part) if isinstance(part, list) else [part]
     return flat
 
+sp_map = {
+        'iu': 'q',
+        'en': 'w',
+        'e': 'e',
+        'zh': 'e',
+        'ou': 'r',
+        'ui': 't',
+        'ue': 't',
+        'ue:': 't',
+        'uan': 'y',
+        'u': 'u',
+        'sh': 'u',
+        'i': 'i',
+        'ch': 'i',
+        'o': 'o',
+        'uo': 'o',
+        'un': 'p',
+        'a': 'a',
+        'ao': 's',
+        'ang': 'd',
+        'eng': 'f',
+        'ng': 'f',
+        'ing': 'g',
+        'er': 'g',
+        'ong': 'h',
+        'iong': 'h',
+        'ai': 'j',
+        'an': 'k',
+        'ian': 'l',
+        'uai': 'l',
+        'iang': ';',
+        'uang': ';',
+        'ua': 'x',
+        'ia': 'x',
+        'ie': 'c',
+        'u:': 'v',
+        'in': 'b',
+        'iao': 'n',
+        'ei': 'm',
+        '': '',
+}
+
+def convert_py_to_sp(py):
+    if py[0] in 'aoe' or py == 'ng':
+        return 'o' + sp_map[py]
+    if py[0] in 'zcs' and py[1] == 'h':
+        return sp_map[py[0:2]] + sp_map[py[2:]]
+    return py[0:1] + sp_map[py[1:]]
 
 lines = lines[i+1:]
 dict = {}
@@ -113,9 +161,10 @@ for line in lines:
         continue
 
     # Extra Pin-Yin if it's a character.
-    p = item[0][0]
+    p = item[0]
     c = item[2]
-    if p.isalpha():
+    if p[0].isalpha():
+        p = convert_py_to_sp(p)[:args.pad_with_pin_yin]
         if not pinyin.has_key(c):
             pinyin[c] = [p]
         elif not p in pinyin[c]:
@@ -270,21 +319,18 @@ code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
 # Generate the code book.
 code_book = {}
 for c, roots in flat_dict.items():
-    if len(roots) > 1 and not pinyin.has_key(c):
+    if not pinyin.has_key(c):
         continue
     code = ''
     for root in roots:
         code += code_keys[root_group[root]]
-    plus = ['']
-    if len(roots) < args.max_code_length:
-        if args.pad_with_pin_yin and pinyin.has_key(c):
-            plus = pinyin[c]
+    plus = pinyin[c]
     for p in plus:
-        code_plus = code + p
-        if code_book.has_key(code_plus):
-            code_book[code_plus] += [c]
-        else:
+        code_plus = (code + p)[:args.max_code_length]
+        if not code_book.has_key(code_plus):
             code_book[code_plus] = [c]
+        elif not c in code_book[code_plus]:
+            code_book[code_plus] += [c]
 
 # Generate simple codes based on character frequencies.
 simple_code_book = {}
