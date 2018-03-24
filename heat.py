@@ -37,6 +37,9 @@ freq[','] = 0
 freq['.'] = 0
 total_keys = 0
 total_chars = 0
+left_hand_keys = 'qwertasdfgzxcvb'
+last_hand = 0  # 0=left, 1=right
+same_hand_count = 0
 for line in lines:
     i = 0
     while i < len(line):
@@ -60,6 +63,10 @@ for line in lines:
                 freq[key] += 1
             else:
                 freq[key] = 1
+            this_hand = 0 if key in left_hand_keys else 1
+            if this_hand == last_hand:
+                same_hand_count += 1
+            last_hand = this_hand
 
 def show_freq(keys):
     for key in keys:
@@ -71,8 +78,9 @@ def sum_freq(keys):
         sum += freq[key]
     return sum*100.0 / total_keys
 
-print 'chars: %d  keys: %d  keys per char: %.2f' % (
-        total_chars, total_keys, float(total_keys)/total_chars)
+print '字数: %d  按键: %d  每字按键: %.2f  同手连击: %.2f%%' % (
+        total_chars, total_keys, float(total_keys)/total_chars,
+        100.0*same_hand_count/total_keys)
 print
 show_freq('qwertyuiop')
 print '   %4.1f=%4.1f+%4.1f' % (
