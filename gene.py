@@ -140,7 +140,9 @@ sp_map = {
 }
 
 def convert_py_to_sp(py):
-    if py[0] in 'aoe' or py == 'ng':
+    if py[0] in 'a':
+        return 'a' + sp_map[py]
+    if py[0] in 'oe' or py == 'ng':
         return 'o' + sp_map[py]
     if py[0] in 'zcs' and py[1] == 'h':
         return sp_map[py[0:2]] + sp_map[py[2:]]
@@ -383,7 +385,7 @@ with open(args.code_file, 'w') as f:
             continue
         if code_count >= 2:
             num_dups += code_count
-print 'Groups=%d, Duplicates=%d' % (num_groups, num_dups)
+print '编码键数: %d  重码字数: %d' % (num_groups, num_dups)
 
 # See if optimization for root grouping is asked.
 if args.optimize is None:
