@@ -253,11 +253,11 @@ CC 串叉   如：秉乘
 1          1 [蚩头] 屮一sx
 1          1 巿 一巾cd
 # 戈
-1          1 戈 [戈]丶zx
-1          1 戋 [戋]丶zx
-1          1 武 (一[弋]yx)止ys
-1          1 𢦏 十[戈]yx
-1          1 [臧边] 爿戊
+1          1 [弋] 弋zx
+1          1 [戈] 戈zx
+1          1 武 (一弋yx)止ys
+1          1 𢦏 十戈yx
+1          1 [臧边] 冫戊
 # 东
 1          1 乐 [匚]小cd
 1          1 东 七小cd
@@ -1980,7 +1980,7 @@ ge      B8C7 盖 𦍌皿SX
 ge      B8E7 哥 可可SX
 ge      B8E8 歌 哥欠
 ge      B8E9 搁 扌阁
-ge      B8EA 戈 [戈]丶zx
+ge      B8EA 戈
 ge      B8EB 鸽 合鸟
 ge      B8ED 疙 疒乞ZS
 ge      B8EE 割 害刂
@@ -6695,7 +6695,7 @@ yi      DEB2 薏 艹意sx
 yi      DEC4 弈 亦廾sx
 yi      DEC8 奕 亦大sx
 yi      DEDA 挹 扌邑
-yi      DFAE 弋 [弋]丶zx
+yi      DFAE 弋
 yi      DFBD 呓 口艺
 yi      DFD7 咦 口夷
 yi      DFDE 咿 口伊

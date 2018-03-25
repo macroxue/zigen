@@ -58,11 +58,11 @@
         <th colspan='5'>↓离散↓</th>
     </tr>
     <tr valign='top'>
-        <td><ins><b>A</b> 折交</ins><br>廴子巾屮力九七乜电甩</td>
+        <td><ins><b>A</b> 折交</ins><br>廴子巾屮车力九七乜电甩</td>
         <td><ins><b>S</b> 竖交</ins><br>扌㐄丰韦肀中申車</td>
         <td><ins><b>D</b> 横挡</ins><br>土士龶干于</td>
         <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井龷𠀎</td>
-        <td><ins><b>G</b> 斜交</ins><br>𠂇乂犭[弋][戈][戋]<b>王禾</b></td>
+        <td><ins><b>G</b> 斜交</ins><br>𠂇乂犭弋戈戋戊戉<b>王禾</b></td>
         <td><ins><b>H</b> 点横</ins><br>讠辶亠六主方</td>
         <td><ins><b>J</b> 单笔</ins><br>丨丿丶乀</td>
         <td><ins><b>K</b> 两笔</ins><br>二〢刂八⺀丷冫<b>疒</b>巜</td>
@@ -80,7 +80,7 @@
         <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫[惠头]</b></td>
         <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]儿<b>⺮癶</b></td>
         <td><ins><b>B</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气</td>
-        <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>戊戉瓦石</b></td>
+        <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>瓦石</b></td>
         <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几𠘨</td>
         <td><ins><b>，</b></ins></td>
         <td><ins><b>。</b></ins></td>
