@@ -79,8 +79,8 @@
         <td><ins><b>X</b> 木形</ins><br>木未耒</td>
         <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫[惠头]</b></td>
         <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]儿<b>⺮癶</b></td>
-        <td><ins><b>B</b> 盖头</ins><br>冖宀ㄇ[骨头]</td>
-        <td><ins><b>N</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气<b>瓦石</b></td>
+        <td><ins><b>B</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气</td>
+        <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>瓦石</b></td>
         <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几𠘨</td>
         <td><ins><b>，</b></ins></td>
         <td><ins><b>。</b></ins></td>
