@@ -461,6 +461,8 @@ an      B0B5 暗 日音
 an      B0B6 岸 山厈SX
 an      B0B7 胺 月安
 an      B0B8 案 安木SX
+#an      B3A7 厂
+#an      B9E3 广
 an      DACF 谙 讠音
 an      DBFB 埯 土奄
 an      DEEE 揞 扌音
@@ -1343,7 +1345,7 @@ dan     B5AD 淡 氵炎
 dan     B5AE 诞 讠延
 dan     B5AF 弹 弓单
 dan     B5B0 蛋 疋虫SX
-dan     CAAF 石
+#dan     CAAF 石
 dan     D9D9 儋 亻詹
 dan     DDCC 萏 艹臽SX
 dan     E0A2 啖 口炎
@@ -3033,7 +3035,7 @@ ju      BEE4 句 勹口YS
 ju      BEE5 惧 忄具
 ju      BEE6 炬 火巨
 ju      BEE7 剧 居刂
-ju      C7D2 且
+#ju      C7D2 且
 ju      D9C6 倨 亻居
 ju      DAAA 讵 讠巨
 ju      DCC4 苣 艹巨SX

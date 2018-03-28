@@ -336,7 +336,7 @@ for c, roots in flat_dict.items():
 
 # Generate simple codes based on character frequencies.
 simple_code_book = {}
-char_with_simple_code = []
+char_simple_code = {}
 for length in range(1, args.simple_code_length+1):
     simple_code_candidates = {}
     for code, characters in code_book.items():
@@ -346,7 +346,7 @@ for length in range(1, args.simple_code_length+1):
         if length > 1 and code_book.has_key(simple_code):
             available = True
             for char in code_book[simple_code]:
-                if char not in char_with_simple_code:
+                if char not in char_simple_code:
                     available = False
                     break
             if not available:
@@ -358,8 +358,18 @@ for length in range(1, args.simple_code_length+1):
     for code, candidates in simple_code_candidates.items():
         candidates.sort(key=lambda c: char_freq[c], reverse=True)
         for c in candidates:
-            if c not in char_with_simple_code:
-                char_with_simple_code += [c]
+            if c in char_simple_code:
+                new = True
+                for simple_code in char_simple_code[c]:
+                    if code.startswith(simple_code):
+                        new = False
+                        break
+                if new:
+                    char_simple_code[c] += [code]
+                    simple_code_book[code] = c
+                    break
+            else:
+                char_simple_code[c] = [code]
                 simple_code_book[code] = c
                 break
 
@@ -372,7 +382,7 @@ with open(args.code_file, 'w') as f:
         characters = code_book[code]
         full_codes = []
         for c in characters:
-            if c not in char_with_simple_code:
+            if c not in char_simple_code:
                 full_codes += [c]
         full_codes.sort(key=lambda c: char_freq[c], reverse=True)
         code_count = len(full_codes)
