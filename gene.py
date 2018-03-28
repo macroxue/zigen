@@ -24,7 +24,7 @@ parser.add_argument('-m', '--max_code_length',
         type=int, default=4)
 parser.add_argument('-p', '--pad_with_pin_yin',
         help='add Pin-Yin for code length below the maximum',
-        type=int, default=1)
+        type=int, default=2)
 parser.add_argument('-s', '--simple_code_length',
         help='generate simple codes up to this length',
         type=int, default=3)
@@ -166,7 +166,7 @@ for line in lines:
     p = item[0]
     c = item[2]
     if p[0].isalpha():
-        p = convert_py_to_sp(p)[:args.pad_with_pin_yin]
+        p = p[:args.pad_with_pin_yin]
         if not pinyin.has_key(c):
             pinyin[c] = [p]
         elif not p in pinyin[c]:
