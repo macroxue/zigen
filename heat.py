@@ -10,6 +10,9 @@ parser.add_argument('-c', '--code_file',
 parser.add_argument('-t', '--text_file',
         help='use this text file to generate heat map',
         default='test.txt')
+parser.add_argument('-b', '--show_bigram',
+        help='show bigram table for the keys',
+        action='store_true')
 args = parser.parse_args()
 
 with open(args.code_file) as f:
@@ -33,10 +36,12 @@ with open(args.text_file) as f:
     lines = f.readlines()
 
 freq = {'.': 0, ',': 0, ';': 0, '/': 0}
+bigram = {}
 total_keys = 0
 total_chars = 0
 left_hand_keys = 'qwertasdfgzxcvb'
 last_hand = 0  # 0=left, 1=right
+last_key = ''
 same_hand_count = 0
 for line in lines:
     i = 0
@@ -61,10 +66,17 @@ for line in lines:
                 freq[key] += 1
             else:
                 freq[key] = 1
+            combo = last_key, key
+            if args.show_bigram:
+                if bigram.has_key(combo):
+                    bigram[combo] += 1
+                else:
+                    bigram[combo] = 1
             this_hand = 0 if key in left_hand_keys else 1
             if this_hand == last_hand:
                 same_hand_count += 1
             last_hand = this_hand
+            last_key = key
 
 def show_freq(keys):
     for key in keys:
@@ -101,3 +113,20 @@ print '%5.1f  %5.1f  %5.1f  %5.1f  %5.1f  %5.1f  %5.1f  %5.1f  %5.1f  %5.1f' % (
         sum_freq('ik,'),
         sum_freq('ol.'),
         sum_freq('p;'))
+
+if args.show_bigram:
+    keys = 'qwertasdfgzxcvbyuiophjkl;nm'
+    print
+    print '  %00',
+    for k2 in keys:
+        print '%5s' % k2,
+    print
+    for k1 in keys:
+        print '%5s' % k1,
+        for k2 in keys:
+            combo = k1, k2
+            count = bigram[combo] if bigram.has_key(combo) else 0
+            percent = count*10000.0 / total_keys
+            print '%5.1f' % percent,
+        print
+
