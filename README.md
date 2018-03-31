@@ -49,8 +49,8 @@
         <td><ins><b>T</b> 汇聚</ins><br>礻卜⺊丩衤丬䒑𧘇<b>彳</b></td>
         <td><ins><b>Y</b> 不规</ins><br>女夂攵又及彑<b>五</b></td>
         <td><ins><b>U</b> 内空</ins><br>口<br>凹凸</td>
-        <td><ins><b>I</b> 内横</ins><br>日目且㠯<b>[横日]</b></td>
-        <td><ins><b>O</b> 内竖</ins><br>田由甲曲皿四<b>囗鱼</b></td>
+        <td><ins><b>I</b> 内横</ins><br>日目且㠯</td>
+        <td><ins><b>O</b> 内竖</ins><br>田由甲曲覀罒四囬皿[横日]<b>囗鱼</b></td>
         <td><ins><b>P</b> 悬挂</ins><br>阝耳尸𠃜卩㔾已巳</td>
     </tr>
     <tr valign='top'>
