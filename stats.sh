@@ -20,3 +20,11 @@ for key in $keys; do
   printf "$key $len3 "
 done
 echo
+printf "重码细分: "
+for d in $(seq 2 9); do
+  dups=$(grep $d $code_book | wc -l)
+  if [[ $dups -gt 0 ]]; then
+    printf "$d:$dups "
+  fi
+done
+echo
