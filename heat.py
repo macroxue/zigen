@@ -32,9 +32,7 @@ for line in lines:
 with open(args.text_file) as f:
     lines = f.readlines()
 
-freq = {}
-freq[','] = 0
-freq['.'] = 0
+freq = {'.': 0, ',': 0, ';': 0, '/': 0}
 total_keys = 0
 total_chars = 0
 left_hand_keys = 'qwertasdfgzxcvb'
