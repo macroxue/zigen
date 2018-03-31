@@ -34,7 +34,7 @@
 按照食指、中指、无名指、小指，从简到繁。这样明显的规律可以
 减少记忆负担，有些需要特别留意的字根已用红色标注。
 
-![拓扑形](https://github.com/macroxue/zigen/blob/master/topo.png)
+![拓扑形](https://github.com/macroxue/zigen/blob/master/topo.jpg)
 
 所有字根及其编码都在 group.txt 文件中。采用27键编码，实在
 没有理由放着原位键上的分号不用， 写中文有几时用得到分号呢？
