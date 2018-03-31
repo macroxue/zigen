@@ -30,66 +30,18 @@
  * 包围，即该字根可以包围其它字根;
  * 封闭，即该字根呈现一个封闭的区间。
 
-每个大类里又分若干个小类，如下表所示。字根键位的安排基本上
-按照食指、中指、无名指、小指，从简到繁。这样明显的规律可以减少
-记忆负担。有些需要注意的字根已用黑体显示。所有字根及其编码
-都在 group.txt 文件中，下面是简单的归类, 并不包括所有字根。
+每个大类里又分若干个小类，如下图所示。字根键位的安排基本上
+按照食指、中指、无名指、小指，从简到繁。这样明显的规律可以
+减少记忆负担，有些需要特别留意的字根已用红色标注。
 
-提示：如果有些字不能显示，请搜索、下载并安装“开心宋体”。
-<table>
-    <tr valign='top'>
-        <th colspan='5'>↓连接↓</th>
-        <th colspan='5'>↓封闭↓</th>
-    </tr>
-    <tr valign='top'>
-        <td><ins><b>Q</b> 横竖</ins><br>山彐<b>⻊</b>止正工斤片爿</td>
-        <td><ins><b>W</b> 左钩</ins><br>⺈夕久刀乃弓[马]龴乛㇆㇉了豸豕𧰨</td>
-        <td><ins><b>E</b> 右钩</ins><br>纟厶镸幺饣㇙㇗乚匕乙己</td>
-        <td><ins><b>R</b> 丁形</ins><br>亻𠂉丁丆</td>
-        <td><ins><b>T</b> 汇聚</ins><br>礻卜⺊丩衤丬䒑𧘇<b>彳</b></td>
-        <td><ins><b>Y</b> 不规</ins><br>女夂攵又及彑<b>五</b></td>
-        <td><ins><b>U</b> 内空</ins><br>口<br>凹凸</td>
-        <td><ins><b>I</b> 内横</ins><br>日目且㠯</td>
-        <td><ins><b>O</b> 内竖</ins><br>田由甲曲覀罒四囬皿[横日]<b>囗鱼</b></td>
-        <td><ins><b>P</b> 悬挂</ins><br>阝耳尸𠃜卩㔾已巳</td>
-    </tr>
-    <tr valign='top'>
-        <th colspan='5'>↓交叉↓</th>
-        <th colspan='5'>↓离散↓</th>
-    </tr>
-    <tr valign='top'>
-        <td><ins><b>A</b> 折交</ins><br>廴子巾屮车力九七乜电甩</td>
-        <td><ins><b>S</b> 竖交</ins><br>扌㐄丰韦肀中申車</td>
-        <td><ins><b>D</b> 横挡</ins><br>土士龶干于</td>
-        <td><ins><b>F</b> 横交</ins><br><b>一</b>艹廾廿卅井龷𠀎</td>
-        <td><ins><b>G</b> 斜交</ins><br>𠂇乂犭弋戈戋戊戉<b>王禾</b></td>
-        <td><ins><b>H</b> 点横</ins><br>讠辶亠六主方</td>
-        <td><ins><b>J</b> 单笔</ins><br>丨丿丶乀</td>
-        <td><ins><b>K</b> 两笔</ins><br>二〢刂八⺀丷冫<b>疒</b>巜</td>
-        <td><ins><b>L</b> 多笔</ins><br>三川彡乊氵⺌ ⺍巛灬爫<b>心</b></td>
-        <td><ins><b>;</b> 对称</ins><br>忄㣺小水氺[水边]</td>
-    </tr>
-    <tr valign='top'>
-        <th colspan='3'>↓交叉↓</th>
-        <th colspan='1'>↓连接↓</th>
-        <th colspan='3'>↓包围↓</th>
-    </tr>
-    <tr valign='top'>
-        <td><ins><b>Z</b> 其它</ins><br>十钅</td>
-        <td><ins><b>X</b> 木形</ins><br>木未耒</td>
-        <td><ins><b>C</b> 大形</ins><br>大夫𡗗央夬尢丈𡗜<b>虫[惠头]</b></td>
-        <td><ins><b>V</b> 人形</ins><br>人火丫<br>[见底]儿<b>⺮癶</b></td>
-        <td><ins><b>B</b> 其它</ins><br>厂广𠂆[皮头]虍匚凵𠃊勹𠃌⺄气</td>
-        <td><ins><b>N</b> 盖头</ins><br>冖ㄇ宀<b>瓦石</b></td>
-        <td><ins><b>M</b> 上包</ins><br>月[炙头]用门冂几𠘨</td>
-        <td><ins><b>，</b></ins></td>
-        <td><ins><b>。</b></ins></td>
-</table>
+![拓扑形](https://github.com/macroxue/zigen/blob/master/topo.png)
 
-采用27键编码，实在没有理由放着原位键上的分号不用，
-写中文有几时用得到分号呢？
+所有字根及其编码都在 group.txt 文件中。采用27键编码，实在
+没有理由放着原位键上的分号不用， 写中文有几时用得到分号呢？
+如果一定要只用26键，可以把十交叉和木交叉合并，把金字旁移到
+折交叉。
 
-编码是前三末一，不足四码时加拼音的前两个字母。最关键的
+编码规则是前三末一，不足四码时加拼音的前两个字母。最关键的
 是：当取形超过四码时，单笔划的横、竖、撇、点将被忽略，
 除非该笔划是第一码。
 
