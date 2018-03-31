@@ -29,7 +29,6 @@ CC 串叉   如：秉乘
 #START
 # 一
 1          1 下 一卜sx
-1          1 不 一小sx
 1          1 天 一大sx
 1          1 万 一[万底]sx
 1          1 无 一尢sx
@@ -86,6 +85,7 @@ CC 串叉   如：秉乘
 1          1 蒦 萑又SX
 1          1 殸 声殳
 # 一丿
+1          1 不 丆卜sx
 1          1 而 丆(冂〢sb)sx
 1          1 龙 尢丿丶cd
 1          1 犮 (𠂇又zs)丶zx
@@ -146,6 +146,7 @@ CC 串叉   如：秉乘
 1          1 吂 亡口sx
 1          1 巟 亡𫶧sx
 1          1 言 亠二口sx
+1          1 [亠口] 亠口sx
 1          1 [云] 亠厶sx
 1          1 [亦] 亠[业头]sx
 1          1 永 讠[水边]zq
@@ -171,7 +172,6 @@ CC 串叉   如：秉乘
 1          1 㒸 䒑𧰨sx
 # 竖折
 1          1 [龟尾] 电
-1          1 也 乜丨cd
 1          1 屯 七凵cd
 1          1 巴 巳丨cd
 1          1 [亥底] 丩人sx
@@ -307,7 +307,6 @@ CC 串叉   如：秉乘
 1          1 冏 冂(八口SX)SB
 1          1 夗 夕㔾
 1          1 豖 豕丶cd
-1          1 [在边] 𠂇丨sx
 1          1
 1          1 [修左] 亻丨
 1          1 龺 十日十sx
@@ -396,7 +395,7 @@ CC 串叉   如：秉乘
 1          1 [坚头] 〢又
 1          1 [监头] 〢[竹半]
 1          1 𠀐 中一sx
-1          1 [高头] 亠口冖SX
+1          1 [高头] [亠口]冖SX
 1          1 龸 ⺌冖SX
 1          1 [壳头] 士冖SX
 1          1 [爱头] 爫冖SX
@@ -432,7 +431,7 @@ ai      B0A3 埃 土矣
 ai      B0A4 挨 扌矣
 ai      B0A5 哎 口艾
 ai      B0A6 唉 口矣
-ai      B0A7 哀 亠口𧘇sx
+ai      B0A7 哀 [亠口]𧘇sx
 ai      B0A8 皑 白岂
 ai      B0A9 癌 疒(品山SX)ZS
 ai      B0AA 蔼 艹谒SX
@@ -1958,7 +1957,7 @@ gang    EEB8 罡 罒正SX
 gang    F3E0 筻 ⺮更
 gao     B8DD 篙 ⺮高
 gao     B8DE 皋 白大十SX
-gao     B8DF 高 亠口冋sx
+gao     B8DF 高 [亠口]冋sx
 gao     B8E0 膏 高月SX
 gao     B8E1 羔 𦍌灬SX
 gao     B8E2 糕 米羔
@@ -2330,7 +2329,7 @@ hen     BADC 很 彳艮
 hen     BADD 狠 犭艮
 hen     BADE 恨 忄艮
 heng    BADF 哼 口亨
-heng    BAE0 亨 亠口了SX
+heng    BAE0 亨 [亠口]了SX
 heng    BAE1 横 木黄
 heng    BAE2 衡 彳(⺈田大SX)亍
 heng    BAE3 恒 忄亘
@@ -2941,7 +2940,7 @@ jing    BEA5 茎 艹𢀖SX
 jing    BEA6 睛 目青
 jing    BEA7 晶 日(日日)SX
 jing    BEA8 鲸 鱼京
-jing    BEA9 京 亠口小SX
+jing    BEA9 京 [亠口]小SX
 jing    BEAA 惊 忄京
 jing    BEAB 精 米青
 jing    BEAC 粳 米更
@@ -6180,7 +6179,7 @@ xiang   CFE9 祥 礻羊
 xiang   CFEA 详 讠羊
 xiang   CFEB 想 相心sx
 xiang   CFEC 响 口向
-xiang   CFED 享 亠口子SX
+xiang   CFED 享 [亠口]子SX
 xiang   CFEE 项 工页
 xiang   CFEF 巷 龷八巳sx
 xiang   CFF0 橡 木象
