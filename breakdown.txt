@@ -1699,7 +1699,7 @@ fan     B7AD 翻 番羽
 fan     B7AE 樊 (木爻木)大SX
 fan     B7AF 矾 石凡
 fan     B7B0 钒 钅凡
-fan     B7B1 繁 敏糸
+fan     B7B1 繁 敏糸SX
 fan     B7B2 凡 几丶SB
 fan     B7B3 烦 火页
 fan     B7B4 反 𠂆又ZS
@@ -2347,7 +2347,7 @@ hong    BAEC 红 纟工
 hong    D9E4 黉 [觉头]黄SX
 hong    D9EA 訇 勹言YS
 hong    DAA7 讧 讠工
-hong    DDA6 荭 艹红
+hong    DDA6 荭 艹红SX
 hong    DEAE 蕻 艹(镸共)SX
 hong    DEB0 薨 艹罒冖死SX
 hong    E3C8 闳 门厷SB
@@ -2371,7 +2371,7 @@ hu      B9C4 鼓
 hu      BACB 核 木亥
 hu      BACD 和 禾口
 hu      BAF4 呼 口乎
-hu      BAF5 乎 丿丷[十勾]cd
+hu      BAF5 乎 乊[十勾]cd
 hu      BAF6 忽 勿心
 hu      BAF7 瑚 王胡
 hu      BAF8 壶 [壳头]业SX
