@@ -288,7 +288,7 @@ CC 串叉   如：秉乘
 1          1 角 ⺈用sx
 1          1 鹿 广罒zs
 1          1 齿 止人sx
-1          1 羽 𠃌𠃌
+1          1 羽 习习
 1          1 革 廿[革底]SX
 1          1 身 丿[身]sx
 1          1 缶 午凵sx
@@ -6042,7 +6042,7 @@ xi      CFAC 犀 尸(氺牛SX)ZS
 xi      CFAD 檄 木敫
 xi      CFAE 袭 龙衣sx
 xi      CFAF 席 广(廿巾sx)zs
-xi      CFB0 习 𠃌冫ys
+xi      CFB0 习
 xi      CFB1 媳 女息
 xi      CFB2 喜 吉䒑口sx
 xi      CFB3 铣 钅先
