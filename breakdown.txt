@@ -5922,7 +5922,7 @@ wei     F6DB 鲔 鱼有
 wen     CEC1 瘟 疒昷zs
 wen     CEC2 温 氵昷
 wen     CEC3 蚊 虫文
-wen     CEC4 文 亠乂sx
+wen     CEC4 文
 wen     CEC5 闻 门耳sb
 wen     CEC6 纹 纟文
 wen     CEC7 吻 口勿
