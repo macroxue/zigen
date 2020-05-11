@@ -50,7 +50,7 @@ CC 串叉   如：秉乘
 1          1 元 二儿sx
 1          1 亍 二丨sx
 1          1 亏 二㇉sx
-1          1 [丰] 丰
+#1          1 [𠂇3] 丰
 1          1 专 [专头]丶sx
 1          1 [金底] 王丷sx
 1          1 [爰底] 干又zs
@@ -5285,7 +5285,7 @@ shou    CAD5 收 丩攵
 shou    CAD6 手
 shou    CAD7 首 䒑自sx
 shou    CAD8 守 宀寸sx
-shou    CAD9 寿 [丰]寸ZS
+shou    CAD9 寿 [𠂇3]寸ZS
 shou    CADA 授 扌受
 shou    CADB 售 隹口sx
 shou    CADC 受 [爱头]又sx
