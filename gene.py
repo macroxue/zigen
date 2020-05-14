@@ -319,65 +319,77 @@ for c in flat_dict:
 code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
 
 # Generate the code book.
-code_book = {}
-for c, roots in flat_dict.items():
-    if not pinyin.has_key(c):
-        continue
-    code = ''
-    for root in roots:
-        code += code_keys[root_group[root]]
-    plus = pinyin[c]
-    for p in plus:
-        code_plus = (code + p)[:args.max_code_length]
-        if not code_book.has_key(code_plus):
-            code_book[code_plus] = [c]
-        elif not c in code_book[code_plus]:
-            code_book[code_plus] += [c]
+def generate_code_book():
+    for c, roots in flat_dict.items():
+        if not pinyin.has_key(c):
+            continue
+        code = ''
+        for root in roots:
+            code += code_keys[root_group[root]]
+        plus = pinyin[c]
+        for p in plus:
+            code_plus = (code + p)[:args.max_code_length]
+            if not code_book.has_key(code_plus):
+                code_book[code_plus] = [c]
+            elif not c in code_book[code_plus]:
+                code_book[code_plus] += [c]
 
 # Generate simple codes based on character frequencies.
-simple_code_book = {}
-char_simple_code = {}
-for length in range(1, args.simple_code_length+1):
-    simple_code_candidates = {}
-    for code, characters in code_book.items():
-        if len(code) <= length:
-            continue
-        simple_code = code[0:length]
-        if length > 1 and code_book.has_key(simple_code):
-            available = True
-            for char in code_book[simple_code]:
-                if char not in char_simple_code:
-                    available = False
-                    break
-            if not available:
+def generate_simple_codes():
+    for length in range(1, args.simple_code_length+1):
+        simple_code_candidates = {}
+        for code, characters in code_book.items():
+            if len(code) <= length:
                 continue
-        if simple_code_candidates.has_key(simple_code):
-            simple_code_candidates[simple_code] += characters
-        else:
-            simple_code_candidates[simple_code] = [] + characters
-    for code, candidates in simple_code_candidates.items():
-        candidates.sort(key=lambda c: char_freq[c], reverse=True)
-        for c in candidates:
-            if c in char_simple_code:
-                new = True
-                for simple_code in char_simple_code[c]:
-                    if code.startswith(simple_code):
-                        new = False
+            simple_code = code[0:length]
+            if length > 1 and code_book.has_key(simple_code):
+                available = True
+                for char in code_book[simple_code]:
+                    if char not in char_simple_code:
+                        available = False
                         break
-                if new:
-                    char_simple_code[c] += [code]
+                if not available:
+                    continue
+            if simple_code_candidates.has_key(simple_code):
+                simple_code_candidates[simple_code] += characters
+            else:
+                simple_code_candidates[simple_code] = [] + characters
+        for code, candidates in simple_code_candidates.items():
+            candidates.sort(key=lambda c: char_freq[c], reverse=True)
+            for c in candidates:
+                if c in char_simple_code:
+                    new = True
+                    for simple_code in char_simple_code[c]:
+                        if code.startswith(simple_code):
+                            new = False
+                            break
+                    if new:
+                        char_simple_code[c] += [code]
+                        simple_code_book[code] = c
+                        break
+                else:
+                    char_simple_code[c] = [code]
                     simple_code_book[code] = c
                     break
-            else:
-                char_simple_code[c] = [code]
-                simple_code_book[code] = c
-                break
 
 # Output code book to a file.
-num_dups = 0
-with open(args.code_file, 'w') as f:
-    for code in sorted(simple_code_book):
-        f.write('%4s\t%s\t1\n' % (code, simple_code_book[code]))
+def output_code_book():
+    with open(args.code_file, 'w') as f:
+        for code in sorted(simple_code_book):
+            f.write('%4s\t%s\t1\n' % (code, simple_code_book[code]))
+        for code in sorted(code_book.keys()):
+            characters = code_book[code]
+            full_codes = []
+            for c in characters:
+                if c not in char_simple_code:
+                    full_codes += [c]
+            full_codes.sort(key=lambda c: char_freq[c], reverse=True)
+            code_count = len(full_codes)
+            for c in full_codes:
+                f.write('%4s\t%s\t%d\n' % (code, c, code_count))
+
+def count_dups():
+    num_dups = 0
     for code in sorted(code_book.keys()):
         characters = code_book[code]
         full_codes = []
@@ -386,8 +398,6 @@ with open(args.code_file, 'w') as f:
                 full_codes += [c]
         full_codes.sort(key=lambda c: char_freq[c], reverse=True)
         code_count = len(full_codes)
-        for c in full_codes:
-            f.write('%4s\t%s\t%d\n' % (code, c, code_count))
 
         # Don't count dups for code length 1 because many of them are
         # non-characters.
@@ -395,6 +405,17 @@ with open(args.code_file, 'w') as f:
             continue
         if code_count >= 2:
             num_dups += code_count
+    return num_dups
+
+code_book = {}
+generate_code_book()
+
+simple_code_book = {}
+char_simple_code = {}
+generate_simple_codes()
+
+output_code_book()
+num_dups = count_dups()
 print '编码键数: %d  重码字数: %d' % (num_groups, num_dups)
 
 # See if optimization for root grouping is asked.
@@ -409,39 +430,28 @@ else:
         stderr.write('Cannot optimize for non-root: %s\n' % ' '.join(non_roots))
         exit(1)
 
-# Fast evaluation to figure out duplicate codes only.
-def fast_evalulation():
+# Evaluation to figure out duplicate codes.
+def evalulate_dups():
+    global code_book
     code_book = {}
-    num_dups = 0
-    for c, roots in flat_dict.items():
-        code = 0
-        for root in roots:
-            code = (code << 5) + root_group[root] + 1
-        plus = ['']
-        if len(roots) < args.max_code_length:
-            if args.pad_with_pin_yin and pinyin.has_key(c):
-                plus = pinyin[c]
-        for p in plus:
-            if p == '':
-                code_plus = code
-            else:
-                code_plus = (code << 5) + ord(p) - ord('a') + 1
-            if code_plus >= 32 and code_book.has_key(code_plus):
-                num_dups += code_book[code_plus]
-                code_book[code_plus] = 1
-            else:
-                code_book[code_plus] = 2
-    return num_dups
+    generate_code_book()
+
+    global simple_code_book
+    global char_simple_code
+    simple_code_book = {}
+    char_simple_code = {}
+    generate_simple_codes()
+
+    return count_dups()
 
 # Sort roots by frequency. Optimize for frequently used roots first.
 roots_to_optimize.sort(key=lambda r: root_freq[r], reverse=True)
 for root in roots_to_optimize:
-    original_group = root_group[root]
     min_dups = num_dups
-    min_group = original_group
+    min_group = root_group[root]
     for target_group in range(num_groups):
         root_group[root] = target_group
-        new_dups = fast_evalulation()
+        new_dups = evalulate_dups()
         if len(roots_to_optimize) == 1:
             print code_keys[target_group], group_rep[target_group], new_dups
         if new_dups < min_dups:
