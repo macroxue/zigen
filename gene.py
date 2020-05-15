@@ -7,6 +7,9 @@ from sys import stderr
 import argparse
 parser = argparse.ArgumentParser(
         description='Generate code book for Chinese input method')
+parser.add_argument('-a', '--alternative_map',
+        help='alternatively map groups to keys based on shape resemblance',
+        action='store_true')
 parser.add_argument('-b', '--breakdown_file',
         help='input file breaking characters down to roots',
         default='breakdown.txt')
@@ -317,6 +320,8 @@ for c in flat_dict:
 # Keys used for encoding roots.
 #code_keys = 'abcdefghijklmnopqrstuvwxyz;1234567890'
 code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
+if args.alternative_map:
+    code_keys = 'eglrkaobqpzfthxsudyijvw;cnm1234567890'
 
 # Generate the code book.
 def generate_code_book():
