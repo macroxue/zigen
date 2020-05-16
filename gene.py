@@ -321,7 +321,7 @@ for c in flat_dict:
 #code_keys = 'abcdefghijklmnopqrstuvwxyz;1234567890'
 code_keys = 'qwertyuiopasdfgzxcvhjkl;bnm1234567890'
 if args.alternative_map:
-    code_keys = 'eglrkaobqpzfthxsudyijvw;cnm1234567890'
+    code_keys = 'egljkaobqpzfthxsuryidvw;cnm1234567890'
 
 # Generate the code book.
 def generate_code_book():
