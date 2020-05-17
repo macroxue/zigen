@@ -3622,6 +3622,7 @@ ling    C0E2 棱 木夌
 ling    C1E1 玲 王令
 ling    C1E2 菱 艹夌SX
 ling    C1E3 零 雨令SX
+ling    A996 〇
 ling    C1E4 龄 齿令
 ling    C1E5 铃 钅令
 ling    C1E6 伶 亻令
