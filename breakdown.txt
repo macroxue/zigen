@@ -258,7 +258,8 @@ CC 串叉   如：秉乘
 1          1 禹 丿(虫冂cd)sx
 1          1 禺 田冂厶cd
 # 对称
-1          1 臼 [印左]彐
+1          1 臼 𦥑
+1          1 𦥑 [印左]彐
 1          1 非 [非半][非半]
 1          1 北 丬匕
 1          1 兆 丬匕
@@ -2144,7 +2145,7 @@ guan    D9C4 倌 亻官
 guan    DDB8 莞 艹完SX
 guan    DEE8 掼 扌贯
 guan    E4CA 涫 氵官
-guan    EEC2 盥 ([段左]水彐)皿
+guan    EEC2 盥 (水𦥑)皿sx
 guan    F0D9 鹳 雚鸟
 guan    F1E6 矜 矛今
 guan    F7A4 鳏 鱼(罒[小4]SX)
@@ -6881,7 +6882,7 @@ yu      D3DB 盂 于皿sx
 yu      D3DC 榆 木俞
 yu      D3DD 虞 虍吴zs
 yu      D3DE 愚 禺心sx
-yu      D3DF 舆 ([印左]车彐)一[八]sx
+yu      D3DF 舆 (车𦥑)一[八]sx
 yu      D3E0 余 人[余底]sx
 yu      D3E1 俞 亼刖sx
 yu      D3E2 逾 辶俞zx
